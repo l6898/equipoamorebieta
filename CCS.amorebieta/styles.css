@@ -1,0 +1,15 @@
+*{ margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+
+
+
+ header {   background-color: #D9D9D9;
+            color: rgb(0, 0, 0);
+             height: 5rem;
+               display: flex;
+             align-items: center;
+             justify-content: space-between;
+ }
