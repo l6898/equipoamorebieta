@@ -59,11 +59,27 @@
 
 
 footer
-.contenedor-footer{ border: 0.5rem solid black;
+.contenedor-footer{ border: 0.1rem solid black;
                     width: 100%;
-                    height: 10rem;
+                    height: 20rem;
                     background-color: aquamarine;
                     display: flex;
+                    flex-direction: column;
                     justify-content: space-between;
+
+}
+
+.titulo_patrocinadores{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                        font-size: 1.3rem;
+                        display: flex;
+                        justify-content: center;
+
+}
+.list_patrocinadores{width: 80%;
+                    height: 8rem;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin: 0 auto;
 
 }
