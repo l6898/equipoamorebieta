@@ -135,6 +135,8 @@ footer { grid-area: footer;
                 
 }
 
-.logo-redes{text-decoration: none;
+.redes_sociales ul{display: flex;
+  
+                  
 
 }
