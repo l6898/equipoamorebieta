@@ -93,6 +93,8 @@ footer { grid-area: footer;
                     display: flex;
                     flex-direction: column;
                     justify-content: space-between;
+                    border: 0.3rem solid black;
+                    
 
 }
 
@@ -108,5 +110,18 @@ footer { grid-area: footer;
                     justify-content: space-between;
                     align-items: center;
                     margin: 0 auto;
+                    
+
+}
+.redes_sociales{width: 20%;
+                height: 5rem;
+                text-decoration: none;
+                display: flex;
+                justify-content: space-between;
+                border: 0.2rem solid black;
+                
+}
+
+.logo-redes{text-decoration: none;
 
 }
