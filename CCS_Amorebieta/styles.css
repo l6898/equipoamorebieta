@@ -4,7 +4,7 @@
  }
 
  /*estilo contenedor principal*/
- main { background-color: rgb(131, 36, 36);
+ main { /* background-color: rgb(131, 36, 36); */
         min-height: 100vh;
         display: grid;
         grid-template-areas: 
@@ -87,14 +87,13 @@
 footer { grid-area: footer;
          border: 1rem solid green;
 }
-.contenedor-footer{ border: 0.1rem solid black;
+.contenedor-footer{ 
                     width: 100%;
-                    height: 30rem;
-                    background-color: aquamarine;
+                    height: auto;
                     display: flex;
                     flex-direction: column;
                     justify-content: space-between;
-                    border: 0.3rem solid black;
+                    
                     
 
 }
@@ -103,48 +102,67 @@ footer { grid-area: footer;
 
 .titulo_patrocinadores{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
                         font-size: 1.3rem;
+                        font-style: italic;
                         display: flex;
                         justify-content: center;
+                        padding: 2rem;
 
 }
-.list_patrocinadores{width: 80%;
-                    height: 15rem;
+.list_patrocinadores{width: 90%;
+                    height: 20rem;
                     padding-top: 2rem;
                     padding-bottom: 2rem;
                     display: flex;
                     justify-content: space-between;
                     align-items: center;
                     margin: 0 auto;
-                    list-style: none;
-                    
+                    list-style: none;                 
 
-}
+                    }
+        
+            /* .imagen_footer{width: 50px;
+                height: 50px;
+
+                } */
+            img{width: 150px;
+                    height: 150px;
+    
+                    }
 
 .redes_sociales{width: 100%;
-                height: 10rem;
-                border: 0.2rem solid black;
+                height: auto;
                 padding-top: 2rem;
                 padding-bottom: 2rem;
 
 }
-.redes_sociales ul{width: 20%;
+.redes_sociales ul{width: 15%;
                 height: 5rem;
-                padding: 0.5rem;
+                padding-right: 3rem;
+                padding-bottom: 3rem;
                 display: flex;
                 justify-content: space-between;
                 align-items: flex-end;
-                border: 0.2rem solid black;
                 list-style: none;
+                float: right;
                 
 }
                   
 
-.redes_sociales h4{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-                    padding: 0 auto;
+.titulo_patrocinadores2{width: 100%;
+                        height: 3rem;
+                        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                        font-style: italic;
+                        font-size: 1.2rem;
+                        display: flex;
+                        padding-left: 102rem;
+}
+
+.copyright{width: 100%;
+    height: 10rem;
+    padding: 5rem;
+    
+   
+    
 
 }
 
-.img{width: 5rem;
-    height: 5rem;
-
-}
