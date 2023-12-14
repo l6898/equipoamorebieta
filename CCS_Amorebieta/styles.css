@@ -21,14 +21,21 @@
 
 
 
- header { border: 0.5rem solid rgb(0, 2, 128);
+ header { 
             background-color: #D9D9D9;
             grid-area: header;
+            display: flex;
+            justify-content: space-around            ;
          
            
             
               
         }
+
+.videodelmenu { width: 8rem;
+                border: 0.5rem solid red;
+                
+}
 
 
  header ul {   background-color: blueviolet;
@@ -142,8 +149,8 @@ footer { grid-area: footer;
                 display: flex;
                 justify-content: space-between;
                 align-items: flex-end;
+                border: 0.2rem solid black;
                 list-style: none;
-                float: right;
                 
 }
                   
