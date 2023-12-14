@@ -212,3 +212,35 @@ footer { grid-area: footer;
 
 }
 
+
+/* A partir de acá se empleará el CSS de la sección noticias */
+
+.contenedor_noticias{   width: 100%;
+                        height: 80rem;
+                        display: flex;
+                        justify-content: center;
+
+}
+.portada1{width: 60%;
+            height: 35rem;
+            display: flex;
+            justify-content: center;
+            padding: 2rem;
+
+}
+.portada1 img{width: 100%;
+    height: auto;
+    
+
+}
+.noticia1{width: 100%;
+            height: auto;
+    }
+
+.cuerpo_noticia1{width: 60%;
+                    height: auto;
+                    padding: 2rem;
+                    
+
+
+}
