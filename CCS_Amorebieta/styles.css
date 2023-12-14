@@ -9,11 +9,12 @@
         display: grid;
         grid-template-areas: 
         "header"
+        "contenedor1"
         "footer"
         ;
 
       /*esto es la cuadricula*/
-      grid-auto-rows: 10rem 50rem;
+      grid-auto-rows: 10rem 50rem  50rem;
             
        }
 
@@ -57,8 +58,15 @@
             
 }
 
-.abderraman { width: 5rem; 
+ 
+section { border: 1rem solid rgb(128, 83, 0);
+          background-color: white;
+          grid-area: contenedor1;        
 }
+
+h1 { background-color:orange;}
+
+
 
 
 
