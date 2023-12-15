@@ -4,7 +4,7 @@
  }
 
  /*estilo contenedor principal*/
- main { 
+main { 
         min-height: 100vh;
         display: grid;
         grid-template-areas: 
@@ -22,29 +22,25 @@
 
 
 
- header {  
-            background-color: #D9D9D9;
+header {    background-color: #D9D9D9;
             grid-area: header;
             display: flex;
-            justify-content: space-around            ;
-         
-           
+            justify-content: space-between;
             
-              
+         
         }
 
 
- header ul {  
-    
-               justify-content: space-between;
-               /*background-color: blueviolet;*/
-               padding-top: 3rem;
-              
-               
-               
-      
 
-}
+
+header ul {  
+             width: 100%;
+             display: flex;
+             justify-content: space-around;
+             align-items: center;
+
+               
+           }
  
  header a {   
             text-decoration: none;
@@ -67,7 +63,16 @@ section { border: 1rem solid rgb(128, 83, 0);
 
 /*----------aqui tengo el ccs del enlace a equipo senior---*/
 
-.equiposenior { border: 1rem solid orange;}
+.equiposenior {  border: 1rem solid orange;
+                 position: relative;
+               }
+
+.absolute { 
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+}
 
 
 /*hasta aqui es el css del enlace al equipo senior
