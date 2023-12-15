@@ -6,35 +6,48 @@ body{
    /* max-width: 1200px */
     color: white;}
 
-.icon{
-    width: 40px;}
+.iconcarrito{
+    width: 5rem;
+    padding: 1rem;}
 
 img{
     max-width: 100%; 
-    width: 15rem;}
+    width: 40rem;}
 
-header{width: 100%;
+header
+ {  width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 30px 0 40px 0;}
+    padding: 30px 0 40px 0;
+   
+}
+
 .items{width: 100%;
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(3,1fr);
 }
 p{color: black;}
 
-[class=item]{
-    border:0.1rem solid black;
-   
-     }
-[alt=producto]{
-    border: 0.1rem solid red;
-    text-align: center;
+
     
-}
+
 .descripcionyprecio{text-align:center;}
 button{
-    padding:1rem ;
+    padding: 1rem ;
     border:0.1 solid black;
     border-radius: 2rem;
+    margin-left: 40%;
+    
 }
+
+[alt="iconcarrito"]{
+    width: 5%;
+    height:5%;
+    
+
+}
+figure{text-align: center;}
+.item{padding: 1rem;}
+
+
+
