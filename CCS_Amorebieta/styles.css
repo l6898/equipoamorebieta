@@ -24,6 +24,7 @@ main {
 
 header {    background-color: #D9D9D9;
             grid-area: header;
+            
             display: flex;
             justify-content: space-between;
             
@@ -63,17 +64,33 @@ section { border: 1rem solid rgb(128, 83, 0);
 
 /*----------aqui tengo el ccs del enlace a equipo senior---*/
 
-.equiposenior {  border: 1rem solid orange;
-                 position: relative;
-               }
 
-.absolute { 
-            position: absolute;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+.videoDelequipo { position: fixed;}
+
+         
+           
+            
+.equiposenior { border: 1rem solid red;
+                position: absolute; 
+                width: 100%;
+                display: flex;
+                flex-direction: column; 
+                justify-content: space-between; 
+                gap:10rem   
 }
 
+
+      
+
+.hplantilla { 
+        
+              color:white;
+           
+              
+              font-size: 5rem;
+             
+             
+            }
 
 /*hasta aqui es el css del enlace al equipo senior
 
