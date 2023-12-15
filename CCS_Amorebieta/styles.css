@@ -64,13 +64,10 @@ header ul {
 
 /*----------aqui tengo el ccs del enlace a equipo senior---*/
 
-
 .videoDelequipo { position: fixed;}
 
          
-           
-            
-.equiposenior { border: 1rem solid red;
+.plantilla { border: 1rem solid red;
                 position: absolute; 
                 width: 100%;
                 display: flex;
@@ -92,7 +89,7 @@ header ul {
              
             }
 
-/*hasta aqui es el css del enlace al equipo senior
+/*hasta aqui es el css del enlace al equipo senior*/
 
 
 
