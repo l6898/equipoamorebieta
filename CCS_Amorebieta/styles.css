@@ -53,8 +53,9 @@ header ul {
 }
 
  
-.encabezado_del_body { background-color: white;
-          grid-area: contenedor1;        
+.encabezado_del_body {  border: 1rem solid red; 
+                        background-color: white;
+                        grid-area: contenedor1;        
 }
 
 
@@ -99,7 +100,7 @@ header ul {
               display: flex;
               justify-content: space-around;
               
-              font-size: 6rem;
+              font-size: 2rem;
              
              
             }
