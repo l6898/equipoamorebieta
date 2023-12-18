@@ -4,7 +4,7 @@
  }
 
  /*estilo contenedor principal*/
-body {   position: relative;
+body {   position: relative; 
         min-height: 100vh;
         display: grid;
         grid-template-areas: 
@@ -24,8 +24,7 @@ body {   position: relative;
 
 header {    background-color: #D9D9D9;
             grid-area: header;
-            
-           
+
             
             display: flex;
             justify-content: space-between;
@@ -41,18 +40,13 @@ header ul {
              display: flex;
              justify-content: space-around;
              align-items: center;
-             
-          }
 
-ul li { list-style: none;
-         
-}          
+               
+           }
  
  header a {   
             text-decoration: none;
             font-size: 2rem;
-            color: white;
-            
             
            
             
@@ -60,100 +54,73 @@ ul li { list-style: none;
 
  
 .encabezado_del_body { background-color: white;
-                       grid-area: contenedor1;        
+          grid-area: contenedor1;        
 }
 
 
+/*----------aqui tengo el ccs del enlace a equipo senior----------------------------------------------------------------*/
 
-
-
-
-/*----------aqui tengo el ccs del enlace a equipo senior---*/
 
 .videoDelequipo { position: fixed;}
 
 
 
          
-.plantilla {    
-                position: absolute; 
-                width: 100%;
-                display: flex;
-                flex-direction: column; 
-                justify-content: space-between; 
-                gap:10rem;   
-}
+.plantilla {    position: absolute; 
+                width: 100%; 
+        }
+               
+.h1plantilla {  color:white;
+               font-size: 6rem;
+        }
 
-
-      
-
-.hplantilla { 
+.main_senior { 
+               display: flex;
+               flex-direction: column;
+               justify-content: space-between;
+               gap: 10rem;
+               color: antiquewhite
+               
+        } 
         
-              color:white;
-           
+
+ .main_senior  img { width: 300px;
+                     height: 300px;
+
+ }      
+ 
+ .main_senior h3 { color:aqua; 
+                  margin-left: 50%;
+                  font-size: 2rem;
+
+ }
+
+.alineacion { 
+              display: flex;
+              justify-content: space-around;
               
               font-size: 6rem;
              
              
             }
-.talonadores {  
-               display: flex;
-               justify-content: space-around; 
-}       
-
-.pilares { display: flex;
-           justify-content: space-evenly; 
-}
 
 
 
 /*hasta aqui es el css del enlace al equipo senior*/
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 footer { grid-area: footer;
-         background-color: aliceblue;
+background-color: aliceblue;
          
     
 }
 .contenedor-footer{ 
-                    width: 100%;
-                    height: 25rem;                
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: space-between;
-                    padding: 1rem;
+                width: 100%;
+                height: 20rem;
+                                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                padding: 1rem;
                 
                 
 }
@@ -223,7 +190,6 @@ footer { grid-area: footer;
             display: flex;
             justify-content: center;
             align-items: center;
-            padding: 1rem;
 
 
 
@@ -233,6 +199,7 @@ footer { grid-area: footer;
 /* A partir de acá se empleará el CSS de la sección noticias */
 
 
+<<<<<<< HEAD
 .noticias_general{width: 100%;
                     height: auto;
 
@@ -313,14 +280,48 @@ figcaption{text-align: center;
             
 }
 .noticia2 h1{font-size: 2rem;
+=======
+form {
+    /* Centrar el formulario en la página */
+   
+    margin: 0.5rem auto;
+    width: 80%;
+    min-height: 100vh;
+    /* Esquema del formulario */
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    border: none;
+    
+  }
+ 
+ 
+  label{
+    display: block;
+    margin: 0.5rem;
     
 
-}
-.cuerpo_noticia2{   width: 100%;
-    height: auto;
-    padding: 2rem;
-    text-align: justify;
+  }
+  input,textarea{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    padding: 1rem ;
+    margin: 1.5rem auto;
+>>>>>>> 5f697261f6d46e0fd2f51da6488016198e2e6343
     
+
+  }
+  input,textarea:hover{
+   border-color: #4caf4c;
+
+
+  }
+  textarea{
+    height: 10rem;
+    padding: 0.75rem;
+    
+<<<<<<< HEAD
                         }
 
 .portada2       {width: 100%;
@@ -448,63 +449,19 @@ figcaption{text-align: center;
 
 
         /*--------aquies css de abderrAHMANE---*/
+=======
+  }
+ 
+   
+  
+  button {
+    /* Este margen adicional representa aproximadamente el mismo espacio que el espacio
+       entre las etiquetas y sus campos de texto */
+  
+   padding: 1rem 2rem;
+    margin-left: 50%;
+>>>>>>> 5f697261f6d46e0fd2f51da6488016198e2e6343
     
+  }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Esto es tienda */
-.descripcionyprecio>p{color:black}
-
-
-
-
-
-
-
-
-
+  
