@@ -4,7 +4,7 @@
  }
 
  /*estilo contenedor principal*/
-body {   position: relative;
+body {   position: relative; 
         min-height: 100vh;
         display: grid;
         grid-template-areas: 
@@ -24,8 +24,7 @@ body {   position: relative;
 
 header {    background-color: #D9D9D9;
             grid-area: header;
-            
-           
+
             
             display: flex;
             justify-content: space-between;
@@ -41,18 +40,13 @@ header ul {
              display: flex;
              justify-content: space-around;
              align-items: center;
-             
-          }
 
-ul li { list-style: none;
-         
-}          
+               
+           }
  
  header a {   
             text-decoration: none;
             font-size: 2rem;
-            color: white;
-            
             
            
             
@@ -60,15 +54,12 @@ ul li { list-style: none;
 
  
 .encabezado_del_body { background-color: white;
-                       grid-area: contenedor1;        
+          grid-area: contenedor1;        
 }
 
 
-
-
-
-
 /*----------aqui tengo el ccs del enlace a equipo senior----------------------------------------------------------------*/
+
 
 .videoDelequipo { position: fixed;}
 
@@ -108,66 +99,28 @@ ul li { list-style: none;
               display: flex;
               justify-content: space-around;
               
-
-}        
-
-
-
-
-               
-      
+              font-size: 6rem;
+             
+             
+            }
 
 
 
-
-
-/* ------------------hasta aqui es el css del enlace al equipo senior---------*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*hasta aqui es el css del enlace al equipo senior*/
 
 
 footer { grid-area: footer;
-         background-color: aliceblue;
+background-color: aliceblue;
          
     
 }
 .contenedor-footer{ 
-                    width: 100%;
-                    height: 25rem;                
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: space-between;
-                    padding: 1rem;
+                width: 100%;
+                height: 20rem;
+                                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                padding: 1rem;
                 
                 
 }
@@ -237,7 +190,6 @@ footer { grid-area: footer;
             display: flex;
             justify-content: center;
             align-items: center;
-            padding: 1rem;
 
 
 
@@ -247,278 +199,56 @@ footer { grid-area: footer;
 /* A partir de acá se empleará el CSS de la sección noticias */
 
 
-.noticias_general{width: 100%;
-                    height: auto;
-
-}
-.contenedor_noticias{   width: 100%;
-                        height: auto;
-                        margin: 0 auto;
-                        display: flex;
-                        padding-top: 0.1rem;
-                        padding-bottom: 2rem;
-                        justify-content: center;
-                        align-items: center;
-                        flex-direction: column;
-
-}
-.portada1{width: 100%;
-            height: 35rem;
-            display: flex;
-            justify-content: center;
-            padding-left: 2rem;
-            padding-right: 2rem;
-            padding-bottom: 2rem;
-
-}
-.portada1 img{width: 100%;
-    height: auto;
+form {
+    /* Centrar el formulario en la página */
+   
+    margin: 0.5rem auto;
+    width: 80%;
+    min-height: 100vh;
+    /* Esquema del formulario */
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    border: none;
+    
+  }
+ 
+ 
+  label{
+    display: block;
+    margin: 0.5rem;
     
 
-}
-.noticia1{width: 60%;
-            height: auto;
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
-    }
-.noticia1 h1{font-size: 2rem;
-
-}
-
-.noticia1 h4{font-size: 1.5rem;
-
-}
-
-.noticia1 p{font-size: 1.3rem;
-
-}
-
-.cuerpo_noticia1{   width: 100%;
-                    height: auto;
-                    padding: 2rem;
-                    text-align: justify;
-                    
-                                        }
-
-.tyc{width: 100%;
-        height: 3rem;
-        display: flex;
-        justify-content: center;
-}
-
-.tyc ul{width: 30%;
-        height: 2rem;
-        padding: 0.5rem;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        float: right;
-
-}
-.noticia2{  width: 60%;
-            height: auto;
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
-            padding: 1rem;
-}
-.noticia2 h1{font-size: 2rem;
+  }
+  input,textarea{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    padding: 1rem ;
+    margin: 1.5rem auto;
     
 
-}
-.cuerpo_noticia2{   width: 100%;
-    height: auto;
-    padding: 2rem;
-    text-align: justify;
+  }
+  input,textarea:hover{
+   border-color: #4caf4c;
+
+
+  }
+  textarea{
+    height: 10rem;
+    padding: 0.75rem;
     
-                        }
-
-.portada2{  width: 100%;
-                height: 35rem;
-                display: flex;
-                justify-content: center;
-                padding: 2rem;
-            }
-.portada2 img{width: 100%;
-                height: auto;}
-
-.noticia2 h4{font-size: 1.5rem; 
-                        text-align: justify;    
-                        }
-                
-.noticia2 p{font-size: 1.3rem;
-            text-align: justify;
-            
-                }
-                
-.cuerpo_noticia2{   width: 100%;
-                    height: auto;
-                    padding: 2rem;
-                    text-align: justify;
-        }
-
-.portada3{width: 100%;
-            height: 35rem;
-            display: flex;
-            justify-content: center;
-            padding: 2rem;
-        
-        }
-.portada3 img{width: 100%;
-            height: auto;}
-        
-.noticia3{width: 60%;
-            height: auto;
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
-            padding: 1rem;
-            margin: 0 auto;
-        }
-.noticia3 h1{font-size: 2rem;
-        
-        }
-        
-.noticia3 h4{font-size: 1.5rem;
-        
-        }
-        
-.noticia3 p{font-size: 1.3rem;
-        
-        }
-        
-.cuerpo_noticia3{   width: 100%;
-                            height: auto;
-                            padding: 2rem;
-                            text-align: justify;}
-
-.portada3{width: 100%;
-            height: 35rem;
-            display: flex;
-            justify-content: center;
-            padding: 2rem;
-                        }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        /*--------aquies css de abderrAHMANE---*/
+  }
+ 
+   
+  
+  button {
+    /* Este margen adicional representa aproximadamente el mismo espacio que el espacio
+       entre las etiquetas y sus campos de texto */
+  
+   padding: 1rem 2rem;
+    margin-left: 50%;
     
+  }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Esto es tienda */
-.descripcionyprecio>p{color:black}
-
-
-
-
-
-
-
-
-
+  
