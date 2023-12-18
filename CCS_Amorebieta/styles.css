@@ -365,6 +365,12 @@ footer { grid-area: footer;
                             padding: 2rem;
                             text-align: justify;}
 
+.portada3{width: 100%;
+            height: 35rem;
+            display: flex;
+            justify-content: center;
+            padding: 2rem;
+                        }
 
 
 
@@ -427,22 +433,11 @@ footer { grid-area: footer;
 
 
 
-<<<<<<< HEAD
         /*--------aquies css de abderrAHMANE---*/
-        *{ 
-            margin: 0%;
-            padding: 0%;
-            box-sizing: border-box;
-            font-family: sans-serif;"poppins"
-
-
-        }
-        
+    
 
 
 
-        
-=======
 
 
 
@@ -497,25 +492,5 @@ footer { grid-area: footer;
 
 
 
-<<<<<<< HEAD
->>>>>>> 2cd43dc302d952340f57c245ba16657ab2bdbe3a
-=======
-.portada3{width: 100%;
-    height: 35rem;
-    display: flex;
-    justify-content: center;
-    padding: 2rem;
-=======
->>>>>>> d5b2a9f3516f02aba7517f3500cd26a37480a717
 
-                    
-<<<<<<< HEAD
-                                        }
-<<<<<<< HEAD
->>>>>>> d4dc9cb3714e39e4fd0f4f27d6e152d1fcd0d937
-=======
->>>>>>> 83a7e044cb0fa198f46fee038b2580844b2ce7fc
->>>>>>> 2cd43dc302d952340f57c245ba16657ab2bdbe3a
-=======
 
->>>>>>> d5b2a9f3516f02aba7517f3500cd26a37480a717
