@@ -75,7 +75,7 @@ ul li { list-style: none;
 
 
          
-.plantilla {    border: 1rem solid red;
+.plantilla {    
                 position: absolute; 
                 width: 100%;
                 display: flex;
@@ -149,7 +149,7 @@ footer { grid-area: footer;
 }
 .contenedor-footer{ 
                     width: 100%;
-                    height: 20rem;                
+                    height: 25rem;                
                     display: flex;
                     flex-direction: column;
                     justify-content: space-between;
@@ -223,6 +223,7 @@ footer { grid-area: footer;
             display: flex;
             justify-content: center;
             align-items: center;
+            padding: 1rem;
 
 
 
@@ -236,7 +237,7 @@ footer { grid-area: footer;
                     height: auto;
 
 }
-.contenedor_noticias{   width: 80%;
+.contenedor_noticias{   width: 100%;
                         height: auto;
                         margin: 0 auto;
                         display: flex;
@@ -251,7 +252,9 @@ footer { grid-area: footer;
             height: 35rem;
             display: flex;
             justify-content: center;
-            padding: 2rem;
+            padding-left: 2rem;
+            padding-right: 2rem;
+            padding-bottom: 2rem;
 
 }
 .portada1 img{width: 100%;
@@ -376,6 +379,12 @@ footer { grid-area: footer;
                             padding: 2rem;
                             text-align: justify;}
 
+.portada3{width: 100%;
+            height: 35rem;
+            display: flex;
+            justify-content: center;
+            padding: 2rem;
+                        }
 
 
 
@@ -435,6 +444,11 @@ footer { grid-area: footer;
 
 
 
+
+
+
+        /*--------aquies css de abderrAHMANE---*/
+    
 
 
 
@@ -493,5 +507,4 @@ footer { grid-area: footer;
 
 
 
-                    
 
