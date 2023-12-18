@@ -68,46 +68,60 @@ ul li { list-style: none;
 
 
 
-/*----------aqui tengo el ccs del enlace a equipo senior---*/
+/*----------aqui tengo el ccs del enlace a equipo senior----------------------------------------------------------------*/
 
 .videoDelequipo { position: fixed;}
 
 
 
          
-.plantilla {    
-                position: absolute; 
-                width: 100%;
-                display: flex;
-                flex-direction: column; 
-                justify-content: space-between; 
-                gap:10rem;   
-}
+.plantilla {    position: absolute; 
+                width: 100%; 
+        }
+               
+.h1plantilla {  color:white;
+               font-size: 6rem;
+        }
+
+.main_senior { 
+               display: flex;
+               flex-direction: column;
+               justify-content: space-between;
+               gap: 10rem;
+               color: antiquewhite
+               
+        } 
+        
+
+ .main_senior  img { width: 300px;
+                     height: 300px;
+
+ }      
+ 
+ .main_senior h3 { color:aqua; 
+                  margin-left: 50%;
+                  font-size: 2rem;
+
+ }
+
+.alineacion { 
+              display: flex;
+              justify-content: space-around;
+              
+
+}        
 
 
+
+
+               
       
 
-.hplantilla { 
-        
-              color:white;
-           
-              
-              font-size: 6rem;
-             
-             
-            }
-.talonadores {  
-               display: flex;
-               justify-content: space-around; 
-}       
-
-.pilares { display: flex;
-           justify-content: space-evenly; 
-}
 
 
 
-/*hasta aqui es el css del enlace al equipo senior*/
+
+/* ------------------hasta aqui es el css del enlace al equipo senior---------*/
 
 
 
