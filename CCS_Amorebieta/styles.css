@@ -64,13 +64,10 @@ header ul {
 
 /*----------aqui tengo el ccs del enlace a equipo senior---*/
 
-
 .videoDelequipo { position: fixed;}
 
          
-           
-            
-.equiposenior { border: 1rem solid red;
+.plantilla { border: 1rem solid red;
                 position: absolute; 
                 width: 100%;
                 display: flex;
@@ -80,7 +77,6 @@ header ul {
 }
 
 
-<<<<<<< HEAD
       
 
 .hplantilla { 
@@ -93,10 +89,7 @@ header ul {
              
             }
 
-/*hasta aqui es el css del enlace al equipo senior
-=======
-/* hasta aqui es el css del enlace al equipo senior */
->>>>>>> d4afdfe5c06b6f0503e95173f51fc9e5baf80d9c
+/*hasta aqui es el css del enlace al equipo senior*/
 
 
 
@@ -136,8 +129,7 @@ footer { grid-area: footer;
 }
 .contenedor-footer{ 
                     width: 100%;
-                    height: 30rem;
-                
+                    height: 20rem;                
                     display: flex;
                     flex-direction: column;
                     justify-content: space-between;
@@ -278,7 +270,7 @@ footer { grid-area: footer;
         justify-content: center;
 }
 
-.tyc ul{width: 25%;
+.tyc ul{width: 30%;
         height: 2rem;
         padding: 0.5rem;
         display: flex;
@@ -330,38 +322,156 @@ footer { grid-area: footer;
         }
 
 .portada3{width: 100%;
-    height: 35rem;
-    display: flex;
-    justify-content: center;
-    padding: 2rem;
-
-}
-.portada3 img{width: 100%;
-    height: auto;}
-
-.noticia3{width: 50%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding: 1rem;
-    margin: 0 auto;
-}
-.noticia3 h1{font-size: 2rem;
-
-}
-
-.noticia3 h4{font-size: 1.5rem;
-
-}
-
-.noticia3 p{font-size: 1.3rem;
-
-}
-
-.cuerpo_noticia3{   width: 100%;
-                    height: auto;
-                    padding: 2rem;
-                    text-align: justify;
-                    
+            height: 35rem;
+            display: flex;
+            justify-content: center;
+            padding: 2rem;
+        
         }
+.portada3 img{width: 100%;
+            height: auto;}
+        
+.noticia3{width: 60%;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            padding: 1rem;
+            margin: 0 auto;
+        }
+.noticia3 h1{font-size: 2rem;
+        
+        }
+        
+.noticia3 h4{font-size: 1.5rem;
+        
+        }
+        
+.noticia3 p{font-size: 1.3rem;
+        
+        }
+        
+.cuerpo_noticia3{   width: 100%;
+                            height: auto;
+                            padding: 2rem;
+                            text-align: justify;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Esto es tienda */
+.descripcionyprecio>p{color:black}
+
+
+
+
+
+
+
+
+                    
+
