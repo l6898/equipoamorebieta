@@ -19,17 +19,13 @@ body {   position: relative;
        }
 
 
-
+/*-------------aqui es el header-------------------*/
 
 
 header {    background-color: #D9D9D9;
             grid-area: header;
-
-            
             display: flex;
             justify-content: space-between;
-            
-         
         }
 
 
@@ -41,6 +37,7 @@ header ul {
              justify-content: space-around;
              align-items: center;  
            }
+ header ul li { list-style: none;}           
  
  header a {   
             text-decoration: none;
@@ -49,7 +46,7 @@ header ul {
 }
 
 
- 
+ /*------------------------------aqui empieza lo que seria el main-----------*/
 .encabezado_del_body {  border: 1rem solid red; 
                         background-color: white;
                         grid-area: contenedor1;        
