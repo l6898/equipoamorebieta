@@ -39,18 +39,15 @@ header ul {
              width: 100%;
              display: flex;
              justify-content: space-around;
-             align-items: center;
-
-               
+             align-items: center;  
            }
  
  header a {   
             text-decoration: none;
             font-size: 2rem;
-            
-           
-            
+            padding: 1rem;        
 }
+
 
  
 .encabezado_del_body { background-color: white;
@@ -199,7 +196,6 @@ background-color: aliceblue;
 /* A partir de acá se empleará el CSS de la sección noticias */
 
 
-<<<<<<< HEAD
 .noticias_general{width: 100%;
                     height: auto;
 
@@ -280,35 +276,6 @@ figcaption{text-align: center;
             
 }
 .noticia2 h1{font-size: 2rem;
-=======
-form {
-    /* Centrar el formulario en la página */
-   
-    margin: 0.5rem auto;
-    width: 80%;
-    min-height: 100vh;
-    /* Esquema del formulario */
-    padding: 1em;
-    border: 1px solid #ccc;
-    border-radius: 1em;
-    border: none;
-    
-  }
- 
- 
-  label{
-    display: block;
-    margin: 0.5rem;
-    
-
-  }
-  input,textarea{
-    display: flex;
-    justify-content: center;
-    width: 60%;
-    padding: 1rem ;
-    margin: 1.5rem auto;
->>>>>>> 5f697261f6d46e0fd2f51da6488016198e2e6343
     
 
   }
@@ -321,7 +288,6 @@ form {
     height: 10rem;
     padding: 0.75rem;
     
-<<<<<<< HEAD
                         }
 
 .portada2       {width: 100%;
@@ -387,6 +353,35 @@ form {
 
 /* A partir de esta línea se da inicio al estilo de las categorías */
 
+.categorias_general{width: 100%;
+                    height: 100rem;
+
+}
+
+.contenedor_categorias{width: 100%;
+                        height: 70rem;
+                        border: 0.1rem green solid;
+                        
+
+}
+
+.contenedor_categorias h1{font-size: 3rem;
+                            text-align: center;
+                            padding-top: 2rem;
+                            padding-bottom: 2rem;
+
+}
+.juvenil{width: 80%;
+            height: 20rem;
+
+}
+
+.juvenil img{width: 100%;
+                height: 40rem;
+                padding: 1rem;
+
+}
+
 
 
 
@@ -449,19 +444,7 @@ form {
 
 
         /*--------aquies css de abderrAHMANE---*/
-=======
-  }
- 
-   
-  
-  button {
-    /* Este margen adicional representa aproximadamente el mismo espacio que el espacio
-       entre las etiquetas y sus campos de texto */
-  
-   padding: 1rem 2rem;
-    margin-left: 50%;
->>>>>>> 5f697261f6d46e0fd2f51da6488016198e2e6343
     
-  }
+
 
   
