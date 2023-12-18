@@ -4,7 +4,7 @@
  }
 
  /*estilo contenedor principal*/
-body { 
+body {   position: relative;
         min-height: 100vh;
         display: grid;
         grid-template-areas: 
@@ -66,6 +66,8 @@ header ul {
 
 .videoDelequipo { position: fixed;}
 
+
+
          
 .plantilla { border: 1rem solid red;
                 position: absolute; 
@@ -73,7 +75,7 @@ header ul {
                 display: flex;
                 flex-direction: column; 
                 justify-content: space-between; 
-                gap:10rem   
+                gap:10rem;   
 }
 
 
@@ -88,6 +90,8 @@ header ul {
              
              
             }
+
+
 
 /*hasta aqui es el css del enlace al equipo senior*/
 
@@ -125,12 +129,13 @@ header ul {
 
 
 footer { grid-area: footer;
+         background-color: aliceblue;
+         
     
 }
 .contenedor-footer{ 
                     width: 100%;
-                    height: 30rem;
-                
+                    height: 20rem;                
                     display: flex;
                     flex-direction: column;
                     justify-content: space-between;
@@ -271,7 +276,7 @@ footer { grid-area: footer;
         justify-content: center;
 }
 
-.tyc ul{width: 25%;
+.tyc ul{width: 30%;
         height: 2rem;
         padding: 0.5rem;
         display: flex;
@@ -322,7 +327,42 @@ footer { grid-area: footer;
                     text-align: justify;
         }
 
-<<<<<<< HEAD
+.portada3{width: 100%;
+            height: 35rem;
+            display: flex;
+            justify-content: center;
+            padding: 2rem;
+        
+        }
+.portada3 img{width: 100%;
+            height: auto;}
+        
+.noticia3{width: 60%;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            padding: 1rem;
+            margin: 0 auto;
+        }
+.noticia3 h1{font-size: 2rem;
+        
+        }
+        
+.noticia3 h4{font-size: 1.5rem;
+        
+        }
+        
+.noticia3 p{font-size: 1.3rem;
+        
+        }
+        
+.cuerpo_noticia3{   width: 100%;
+                            height: auto;
+                            padding: 2rem;
+                            text-align: justify;}
+
+
 
 
 
@@ -454,6 +494,7 @@ footer { grid-area: footer;
 
 
 
+<<<<<<< HEAD
 >>>>>>> 2cd43dc302d952340f57c245ba16657ab2bdbe3a
 =======
 .portada3{width: 100%;
@@ -461,39 +502,17 @@ footer { grid-area: footer;
     display: flex;
     justify-content: center;
     padding: 2rem;
+=======
+>>>>>>> d5b2a9f3516f02aba7517f3500cd26a37480a717
 
-}
-.portada3 img{width: 100%;
-    height: auto;}
-
-.noticia3{width: 50%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding: 1rem;
-    margin: 0 auto;
-}
-.noticia3 h1{font-size: 2rem;
-
-}
-
-.noticia3 h4{font-size: 1.5rem;
-
-}
-
-.noticia3 p{font-size: 1.3rem;
-
-}
-
-.cuerpo_noticia3{   width: 100%;
-                    height: auto;
-                    padding: 2rem;
-                    text-align: justify;
                     
+<<<<<<< HEAD
                                         }
 <<<<<<< HEAD
 >>>>>>> d4dc9cb3714e39e4fd0f4f27d6e152d1fcd0d937
 =======
 >>>>>>> 83a7e044cb0fa198f46fee038b2580844b2ce7fc
 >>>>>>> 2cd43dc302d952340f57c245ba16657ab2bdbe3a
+=======
+
+>>>>>>> d5b2a9f3516f02aba7517f3500cd26a37480a717
