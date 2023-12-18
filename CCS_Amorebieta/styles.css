@@ -179,7 +179,7 @@ footer { grid-area: footer;
                 }
     
         
-    img{width: 150px;
+.list_patrocinadores img{width: 150px;
                 height: 150px;
 
                 }
@@ -249,12 +249,15 @@ footer { grid-area: footer;
 
 }
 .portada1{width: 100%;
-            height: 35rem;
+            height: 42rem;
             display: flex;
             justify-content: center;
             padding-left: 2rem;
             padding-right: 2rem;
             padding-bottom: 2rem;
+
+}
+figcaption{text-align: center;
 
 }
 .portada1 img{width: 100%;
@@ -307,7 +310,7 @@ footer { grid-area: footer;
             display: flex;
             justify-content: center;
             flex-direction: column;
-            padding: 1rem;
+            
 }
 .noticia2 h1{font-size: 2rem;
     
@@ -320,11 +323,11 @@ footer { grid-area: footer;
     
                         }
 
-.portada2{  width: 100%;
-                height: 35rem;
+.portada2       {width: 100%;
+                height: 45rem;
                 display: flex;
                 justify-content: center;
-                padding: 2rem;
+                
             }
 .portada2 img{width: 100%;
                 height: auto;}
@@ -345,7 +348,7 @@ footer { grid-area: footer;
         }
 
 .portada3{width: 100%;
-            height: 35rem;
+            height: 40rem;
             display: flex;
             justify-content: center;
             padding: 2rem;
@@ -379,12 +382,9 @@ footer { grid-area: footer;
                             padding: 2rem;
                             text-align: justify;}
 
-.portada3{width: 100%;
-            height: 35rem;
-            display: flex;
-            justify-content: center;
-            padding: 2rem;
-                        }
+
+
+/* A partir de esta línea se da inicio al estilo de las categorías */
 
 
 
