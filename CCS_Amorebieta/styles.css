@@ -15,7 +15,7 @@ body {   position: relative;
         
 
       /*esto es la cuadricula*/
-      grid-auto-rows: 10rem 100rem  40rem;
+      grid-auto-rows: 10rem 100rem  60rem;
             
        }
 
@@ -129,9 +129,9 @@ background-color: aliceblue;
          
     
 }
-.contenedor-footer{ 
+.contenedor-footer{ border: 1rem solid red;
                 width: 100%;
-                height: 20rem;
+                height: 40rem;
                                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
@@ -165,11 +165,12 @@ background-color: aliceblue;
                 height: 150px;
 
                 }
-.redes_sociales{width: 100%;
-            height: auto;
-            padding-top: 0.5rem;
-            display: flex;
-            justify-content: center;
+.redes_sociales{ border: 1rem solid red;
+                width: 100%;
+                height: auto;
+                padding-top: 0.5rem;
+                display: flex;
+                 justify-content: center;
 }
 .redes_sociales ul{width: 25%;
             height: 5rem;
@@ -214,7 +215,6 @@ background-color: aliceblue;
 /* A partir de acá se empleará el CSS de la sección noticias */
 
 
-<<<<<<< HEAD
 form {
     /* Centrar el formulario en la página */
    
@@ -244,7 +244,6 @@ form {
     border: none;
     color:darkgrey;
     opacity: 0.6;
-=======
 .noticias_general{width: 100%;
                     height: auto;
 
@@ -325,7 +324,6 @@ figcaption{text-align: center;
             
 }
 .noticia2 h1{font-size: 2rem;
->>>>>>> 8ec8f20aaad16ed54ba8ba7c365bd88c149d9eb9
     
 
   }
@@ -333,7 +331,6 @@ figcaption{text-align: center;
   textarea{
     height: 10rem;
     padding: 0.75rem;
-<<<<<<< HEAD
     color: darkgrey;
   }
  
@@ -353,7 +350,6 @@ figcaption{text-align: center;
   button:hover{
     background-color: blueviolet;
   }
-=======
     
                         }
 
@@ -492,9 +488,7 @@ figcaption{text-align: center;
 
 
 
-
-
-
+contenedor_
 
 
 
@@ -525,7 +519,6 @@ figcaption{text-align: center;
         /*--------aquies css de abderrAHMANE---*/
     
 
->>>>>>> 8ec8f20aaad16ed54ba8ba7c365bd88c149d9eb9
 
   .formulario{
     /*height: 100vh;
