@@ -3,8 +3,16 @@
     box-sizing: border-box;
  }
 
+<<<<<<< HEAD
+:root{--principal:#1512AF;
+    --secundario:#C1BBCA;
+     --tercero: #F0F8FF; 
+}
+body { 
+=======
  /*estilo contenedor principal*/
 body {   position: relative; 
+>>>>>>> b371fc4101494e449683545e0a0753e337386069
         min-height: 100vh;
         height: 100%;
         display: grid;
@@ -25,7 +33,7 @@ body {   position: relative;
 /*-------------aqui es el header-------------------*/
 
 
-header {    background-color: #D9D9D9;
+header {    background-color:var(--principal);
             grid-area: header;
             display: flex;
             justify-content: space-between;
@@ -34,11 +42,18 @@ header {    background-color: #D9D9D9;
 
 
 
+ul{ color: white;}
 header ul {  
              width: 100%;
              display: flex;
              justify-content: space-around;
+<<<<<<< HEAD
+             align-items: center;
+            
+               
+=======
              align-items: center;  
+>>>>>>> b371fc4101494e449683545e0a0753e337386069
            }
  header ul li { list-style: none;}           
  
@@ -48,6 +63,11 @@ header ul {
             padding: 1rem;        
 }
 
+<<<<<<< HEAD
+ 
+.encabezado_del_body { background-color:var(--secundario);
+                       grid-area: contenedor1;        
+=======
 
  /*------------------------------aqui empieza lo que seria el main-----------*/
 .encabezado_del_body {   
@@ -57,6 +77,7 @@ header ul {
 
 .carruselDefotos {  border: 1rem solid black;
 
+>>>>>>> b371fc4101494e449683545e0a0753e337386069
 }
 
 
@@ -132,6 +153,16 @@ header ul {
 
 
          
+<<<<<<< HEAD
+.plantilla { 
+                position: absolute; 
+                width: 100%;
+                display: flex;
+                flex-direction: column; 
+                justify-content: space-between; 
+                gap:10rem   
+}
+=======
 .plantilla {    position: absolute; 
                 width: 100%; 
         }
@@ -139,6 +170,7 @@ header ul {
 .h1plantilla {  color:white;
                font-size: 6rem;
         }
+>>>>>>> b371fc4101494e449683545e0a0753e337386069
 
 .main_senior { 
                display: flex;
@@ -180,6 +212,38 @@ header ul {
         /*esto es el CCS del formulario*/
 
 
+<<<<<<< HEAD
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer { grid-area: footer;
+    background-color: var(--tercero);
+=======
 form {
     /* Centrar el formulario en la página */
    
@@ -189,6 +253,7 @@ form {
     /* Esquema del formulario */
     padding: 1em;
     border: none;
+>>>>>>> b371fc4101494e449683545e0a0753e337386069
     
   }
  
