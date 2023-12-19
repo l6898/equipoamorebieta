@@ -3,7 +3,10 @@
     box-sizing: border-box;
  }
 
- /*estilo contenedor principal*/
+:root{--principal:#1512AF;
+    --secundario:#C1BBCA;
+     --tercero: #F0F8FF; 
+}
 body { 
         min-height: 100vh;
         display: grid;
@@ -22,25 +25,24 @@ body {
 
 
 
-header {    background-color: #D9D9D9;
+header {    background-color:var(--principal);
             grid-area: header;
            
             
             display: flex;
             justify-content: space-between;
-            
-         
         }
 
 
 
 
+ul{ color: white;}
 header ul {  
              width: 100%;
              display: flex;
              justify-content: space-around;
              align-items: center;
-
+            
                
            }
  
@@ -53,7 +55,7 @@ header ul {
 }
 
  
-.encabezado_del_body { background-color: white;
+.encabezado_del_body { background-color:var(--secundario);
                        grid-area: contenedor1;        
 }
 
@@ -67,7 +69,7 @@ header ul {
 .videoDelequipo { position: fixed;}
 
          
-.plantilla { border: 1rem solid red;
+.plantilla { 
                 position: absolute; 
                 width: 100%;
                 display: flex;
@@ -125,6 +127,7 @@ header ul {
 
 
 footer { grid-area: footer;
+    background-color: var(--tercero);
     
 }
 .contenedor-footer{ 
