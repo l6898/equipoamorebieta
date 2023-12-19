@@ -501,90 +501,90 @@ figcaption{text-align: center;
 
 
 footer { grid-area: footer;
-        background-color: aliceblue;
-        
-   
+         background-color: aliceblue;
+         
+    
 }
 .contenedor-footer{ border: 1rem solid red;
-               width: 100%;
-               height: 40rem;
-               display: flex;
-               flex-direction: column;
-               justify-content: space-between;
-               padding: 1rem;
-               
-               
+                width: 100%;
+                height: 40rem;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                padding: 1rem;
+                
+                
 }
 
 
 
 
 .titulo_patrocinadores{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-                   font-size: 1.3rem;
-                   font-style: italic;
-                   display: flex;
-                   justify-content: center;
-                   padding: 1rem;
+                    font-size: 1.3rem;
+                    font-style: italic;
+                    display: flex;
+                    justify-content: center;
+                    padding: 1rem;
 }
 .list_patrocinadores{width: 90%;
-               height: 10rem;
-               padding: 1rem;
-               display: flex;
-               justify-content: space-between;
-               align-items: center;
-               margin: 0 auto;
-               list-style: none;                 
-               }
-   
-       
-.list_patrocinadores img {  width: 150px;
-                          height: 150px;
-
-                       }
-.redes_sociales { border: 1rem solid red;
-                width: 100%;
-                height: auto;
-                padding-top: 0.5rem;
+                height: 10rem;
+                padding: 1rem;
                 display: flex;
-                justify-content: center;
-               }
+                justify-content: space-between;
+                align-items: center;
+                margin: 0 auto;
+                list-style: none;                 
+                }
+    
+        
+.list_patrocinadores img {  width: 150px;
+                           height: 150px;
+
+                        }
+.redes_sociales { border: 1rem solid red;
+                 width: 100%;
+                 height: auto;
+                 padding-top: 0.5rem;
+                 display: flex;
+                 justify-content: center;
+                }
 .redes_sociales ul{width: 25%;
-           height: 5rem;
-           padding: 1rem;
-           display: flex;
-           justify-content: center;
-           gap: 4rem;
-           align-items: center;
-           list-style: none;
-           float: right;
-           
+            height: 5rem;
+            padding: 1rem;
+            display: flex;
+            justify-content: center;
+            gap: 4rem;
+            align-items: center;
+            list-style: none;
+            float: right;
+            
 }
-             
+              
 .titulo_patrocinadores2 {    width: 100%;
-                            height: 1rem;
-                            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-                           font-style: italic;
-                           font-size: 1.2rem;
-                           display: flex;
-                           padding-left: 75rem;
-                       }
+                             height: 1rem;
+                             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                            font-style: italic;
+                            font-size: 1.2rem;
+                            display: flex;
+                            padding-left: 75rem;
+                        }
 
 .line_icon { width: 100%;
-            height: 1rem;
-            align-items: center;
-           }
+             height: 1rem;
+             align-items: center;
+            }
 
-           .fa-brands{font-size: 2rem;
-               }
+            .fa-brands{font-size: 2rem;
+                }
 .logo-redes {width: 2rem;
-           height: 2rem;
-           }
+            height: 2rem;
+            }
 .copyright {width: 100%;
-           height: 5rem;
-           display: flex;
-           justify-content: center;
-           align-items: center;
-       }
+            height: 5rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
 
 
 
