@@ -15,22 +15,18 @@ body {   position: relative;
         
 
       /*esto es la cuadricula*/
-      grid-auto-rows: 10rem 50rem  40rem;
+      grid-auto-rows: 10rem 100rem  40rem;
             
        }
 
 
-
+/*-------------aqui es el header-------------------*/
 
 
 header {    background-color: #D9D9D9;
             grid-area: header;
-
-            
             display: flex;
             justify-content: space-between;
-            
-         
         }
 
 
@@ -40,52 +36,85 @@ header ul {
              width: 100%;
              display: flex;
              justify-content: space-around;
-             align-items: center;
-
-               
+             align-items: center;  
            }
+ header ul li { list-style: none;}           
  
  header a {   
             text-decoration: none;
             font-size: 2rem;
-            
-           
-            
-}
-
- 
-.encabezado_del_body { background-color: white;
-          grid-area: contenedor1;        
+            padding: 1rem;        
 }
 
 
-/*----------aqui tengo el ccs del enlace a equipo senior---*/
+ /*------------------------------aqui empieza lo que seria el main-----------*/
+.encabezado_del_body {   
+                        background-color: white;
+                        grid-area: contenedor1;        
+}
+
+.carruselDefotos {  border: 1rem solid black
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------aqui tengo el ccs del enlace a equipo senior----------------------------------------------------------------*/
 
 
 .videoDelequipo { position: fixed;}
 
+
+
          
-           
-            
-.plantilla { border: 1rem solid red;
-                position: absolute; 
-                width: 100%;
-                display: flex;
-                flex-direction: column; 
-                justify-content: space-between; 
-                gap:10rem   
-}
+.plantilla {    position: absolute; 
+                width: 100%; 
+        }
+               
+.h1plantilla {  color:white;
+               font-size: 6rem;
+        }
 
-
-
-      
-
-.hplantilla { 
+.main_senior { 
+               display: flex;
+               flex-direction: column;
+               justify-content: space-between;
+               gap: 10rem;
+               color: antiquewhite
+               
+        } 
         
-              color:white;
-           
+
+ .main_senior  img { width: 300px;
+                     height: 300px;
+
+ }      
+ 
+ .main_senior h3 { color:aqua; 
+                  margin-left: 50%;
+                  font-size: 2rem;
+
+ }
+
+.alineacion { 
+              display: flex;
+              justify-content: space-around;
               
-              font-size: 6rem;
+              font-size: 2rem;
              
              
             }
@@ -132,7 +161,7 @@ background-color: aliceblue;
                 }
     
         
-    img{width: 150px;
+.list_patrocinadores img{width: 150px;
                 height: 150px;
 
                 }
@@ -185,6 +214,7 @@ background-color: aliceblue;
 /* A partir de acá se empleará el CSS de la sección noticias */
 
 
+<<<<<<< HEAD
 form {
     /* Centrar el formulario en la página */
    
@@ -214,6 +244,88 @@ form {
     border: none;
     color:darkgrey;
     opacity: 0.6;
+=======
+.noticias_general{width: 100%;
+                    height: auto;
+
+}
+.contenedor_noticias{   width: 100%;
+                        height: auto;
+                        margin: 0 auto;
+                        display: flex;
+                        padding-top: 0.1rem;
+                        padding-bottom: 2rem;
+                        justify-content: center;
+                        align-items: center;
+                        flex-direction: column;
+
+}
+.portada1{width: 100%;
+            height: 42rem;
+            display: flex;
+            justify-content: center;
+            padding-left: 2rem;
+            padding-right: 2rem;
+            padding-bottom: 2rem;
+
+}
+figcaption{text-align: center;
+
+}
+.portada1 img{width: 100%;
+    height: auto;
+    
+
+}
+.noticia1{width: 60%;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+    }
+.noticia1 h1{font-size: 2rem;
+
+}
+
+.noticia1 h4{font-size: 1.5rem;
+
+}
+
+.noticia1 p{font-size: 1.3rem;
+
+}
+
+.cuerpo_noticia1{   width: 100%;
+                    height: auto;
+                    padding: 2rem;
+                    text-align: justify;
+                    
+                                        }
+
+.tyc{width: 100%;
+        height: 3rem;
+        display: flex;
+        justify-content: center;
+}
+
+.tyc ul{width: 30%;
+        height: 2rem;
+        padding: 0.5rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        float: right;
+
+}
+.noticia2{  width: 60%;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            
+}
+.noticia2 h1{font-size: 2rem;
+>>>>>>> 8ec8f20aaad16ed54ba8ba7c365bd88c149d9eb9
     
 
   }
@@ -221,6 +333,7 @@ form {
   textarea{
     height: 10rem;
     padding: 0.75rem;
+<<<<<<< HEAD
     color: darkgrey;
   }
  
@@ -240,6 +353,179 @@ form {
   button:hover{
     background-color: blueviolet;
   }
+=======
+    
+                        }
+
+.portada2       {width: 100%;
+                height: 50rem;
+               /*  display: flex;
+                justify-content: center; */
+                
+            }
+.portada2 img{width: 100%;
+                height: auto;
+                padding: 2rem;}
+
+.noticia2 h4{font-size: 1.5rem; 
+                        text-align: justify;    
+                        }
+                
+.noticia2 p{font-size: 1.3rem;
+            text-align: justify;
+            
+                }
+                
+.cuerpo_noticia2{   width: 100%;
+                    height: auto;
+                    padding: 2rem;
+                    text-align: justify;
+        }
+
+.portada3{width: 100%;
+            height: 40rem;
+            display: flex;
+            justify-content: center;
+            padding: 2rem;
+        
+        }
+.portada3 img{width: 100%;
+            height: auto;}
+        
+.noticia3{width: 60%;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            padding: 1rem;
+            margin: 0 auto;
+        }
+.noticia3 h1{font-size: 2rem;
+        
+        }
+        
+.noticia3 h4{font-size: 1.5rem;
+        
+        }
+        
+.noticia3 p{font-size: 1.3rem;
+        
+        }
+        
+.cuerpo_noticia3{   width: 100%;
+                            height: auto;
+                            padding: 2rem;
+                            text-align: justify;}
+
+
+
+/* A partir de esta línea se da inicio al estilo de las categorías */
+
+.categorias_general{width: 100%;
+                    height: 100rem;
+                    display: flex;
+                    
+
+}
+
+.contenedor_categorias{width: 100%;
+                        height: 70rem;
+                        border: 0.1rem green solid;
+                        display: flex;
+                        justify-content: center;
+                        padding: 2rem;
+                        
+                        
+                        
+
+}
+
+.contenedor_categorias h1{font-size: 3rem;
+                            text-align: center;
+                            padding-top: 2rem;
+                            padding-bottom: 2rem;
+
+}
+
+.contenedor_categorias p{padding: 1rem;
+
+}
+.juvenil{width: 90%;
+            height: 20rem;
+
+}
+
+.juvenil img{width: 100%;
+                height: 40rem;
+                padding: 1rem;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /*--------aquies css de abderrAHMANE---*/
+    
+
+>>>>>>> 8ec8f20aaad16ed54ba8ba7c365bd88c149d9eb9
 
   .formulario{
     /*height: 100vh;
