@@ -12,9 +12,10 @@ body {   position: relative;
         "contenedor1"
         "footer"
         ;
+        
 
       /*esto es la cuadricula*/
-      grid-auto-rows: 10rem 50rem  40rem;
+      grid-auto-rows: 10rem 100rem  40rem;
             
        }
 
@@ -47,10 +48,29 @@ header ul {
 
 
  /*------------------------------aqui empieza lo que seria el main-----------*/
-.encabezado_del_body {  border: 1rem solid red; 
+.encabezado_del_body {   
                         background-color: white;
                         grid-area: contenedor1;        
 }
+
+.carruselDefotos {  border: 1rem solid black
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*----------aqui tengo el ccs del enlace a equipo senior----------------------------------------------------------------*/
@@ -194,6 +214,37 @@ background-color: aliceblue;
 /* A partir de acá se empleará el CSS de la sección noticias */
 
 
+<<<<<<< HEAD
+form {
+    /* Centrar el formulario en la página */
+   
+    margin:13rem auto;
+    width: 80%;
+    min-height: 100vh;
+    /* Esquema del formulario */
+    padding: 1em;
+    border: none;
+    
+  }
+ 
+ 
+  label{
+    display: block;
+    margin: 0.5rem;
+    
+
+  }
+  input,textarea{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    padding: 1rem ;
+    margin: 1.5rem auto;
+    background-color: rgb(34, 33, 33);
+    border: none;
+    color:darkgrey;
+    opacity: 0.6;
+=======
 .noticias_general{width: 100%;
                     height: auto;
 
@@ -274,17 +325,35 @@ figcaption{text-align: center;
             
 }
 .noticia2 h1{font-size: 2rem;
+>>>>>>> 8ec8f20aaad16ed54ba8ba7c365bd88c149d9eb9
     
 
   }
-  input,textarea:hover{
-   border-color: #4caf4c;
-
-
-  }
+  
   textarea{
     height: 10rem;
     padding: 0.75rem;
+<<<<<<< HEAD
+    color: darkgrey;
+  }
+ 
+   
+  
+  button {
+ 
+   padding: 1rem 2rem;
+    margin-left: 50%;
+    background-color: rgb(34, 33, 33);
+    color:darkgrey;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0,0, 80);
+    opacity: 0.8;
+
+  }
+  button:hover{
+    background-color: blueviolet;
+  }
+=======
     
                         }
 
@@ -456,5 +525,18 @@ figcaption{text-align: center;
         /*--------aquies css de abderrAHMANE---*/
     
 
+>>>>>>> 8ec8f20aaad16ed54ba8ba7c365bd88c149d9eb9
 
-  
+  .formulario{
+    /*height: 100vh;
+    width: 100vh;
+    background-image:url(/galeria-rugby/equipacion-hombre.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center center;
+    background-attachment: fixed;*/
+
+    
+    
+
+  }
