@@ -123,6 +123,8 @@ header ul {
 
 /*hasta aqui es el css del enlace al equipo senior*/
 
+/* Acá inicia el CSS del footer */
+
 
 footer { grid-area: footer;
 background-color: aliceblue;
@@ -132,7 +134,7 @@ background-color: aliceblue;
 .contenedor-footer{ border: 1rem solid red;
                 width: 100%;
                 height: 40rem;
-                                display: flex;
+                display: flex;
                 flex-direction: column;
                 justify-content: space-between;
                 padding: 1rem;
@@ -418,13 +420,6 @@ figcaption{text-align: center;
 
 /* A partir de esta línea se da inicio al estilo de las categorías */
 
-.categorias_general{width: 100%;
-                    height: 100rem;
-                    display: flex;
-                    
-
-  }
-
   .categorias_general{width: 100%;
                         height: 300rem;
                         border: 0.2rem solid black;
@@ -440,8 +435,7 @@ figcaption{text-align: center;
                         align-items: center;
                         margin: 0 auto;
                         }
-.linces{        width: 100%;
-                height: auto;
+.linces{        padding: 2rem;
 
 }
 
@@ -454,8 +448,10 @@ figcaption{text-align: center;
                 padding: 1rem;
 
 }
-
-
+.juvenil p{padding: 2rem;
+                font-size: 1.5rem;
+}
+______________________________________________________________________________________________________________________________
 
 
 
