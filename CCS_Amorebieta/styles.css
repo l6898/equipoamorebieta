@@ -401,20 +401,19 @@ figcaption{text-align: center;
 /* A partir de esta línea se da inicio al estilo de las categorías */
 
   .categorias_general{width: 100%;
-                        height: 300rem;
-                        border: 0.2rem solid black;
+                        height: 455rem;
                         display: flex;
-
   }
 
   .contenedor_categorias{width: 80%;
-                        height: auto;
-                        border: 0.1rem solid red;
+                        height: auto;                        
                         display: flex;
                         flex-direction: column;
                         align-items: center;
                         margin: 0 auto;
                         }
+
+/* categoria lince */
 
 .juvenil{       width: 100%;
                 height: auto;
@@ -441,7 +440,7 @@ figcaption{text-align: center;
                 font-size: 1.5rem;
 }
 
-
+/* pre benjamin */
 
 
 .pre_benjamin{  width: 100%;
@@ -470,14 +469,92 @@ figcaption{text-align: center;
 
 }
 
+/* benjamin */
 
+.benjamin{      width: 100%;
+                height: auto;
+                padding: 1rem;
+}
 
+.cat_sub12{     padding: 2rem;
 
+}
+.cat_sub12 img{     width: 100%;
+                        height: 20%;
 
+}
+.benjamin h1{      font-size: 3rem;
+                text-align: center;
+                padding: 1rem;
 
+}
+.benjamin p{   padding: 2rem;
+                font-size: 1.5rem;
 
+}
 
+/* Alevines */
 
+.alevines{      width: 100%;
+                height: auto;
+                padding: 1rem;
+        }
+.cat_alevines{  padding: 2rem;
+
+        }
+.cat_alevines img{      width: 100%;
+                        height: 20%;
+
+}
+.alevines h1{   font-size: 3rem;
+                text-align: center;
+                padding: 1rem;
+}
+.alevines p{    padding: 2rem;
+                font-size: 1.5rem;
+
+}
+
+/* Pre juveniles federados */
+
+.infantiles_federados{  width: 100%;
+                        height: auto;
+                        padding: 1rem;
+}
+.cat_infantil{          padding: 2rem;
+
+}
+.cat_infantil img{      width: 100%;
+                        height: 20%;
+}
+.infantiles_federados h1{       font-size: 3rem;
+                                text-align: center;
+                                padding: 1rem;
+}
+
+.infantiles_federados p{        padding: 2rem;
+                                font-size: 1.5rem;
+
+}
+
+/* Cadetes federados */
+
+.cadetes_federados{     width: 100%;
+                        height: auto;
+                        padding: 1rem;
+}
+.cat_cadetesfederados{  padding: 2rem;
+}
+.cat_cadetesfederados img{      width: 100%;
+                                height: 20%;
+}
+.cadetes_federados h1{  font-size: 3rem;
+                        text-align: center;
+                        padding: 1rem;
+                }
+.cadetes_federados p{   padding: 2rem;
+                        font-size: 1.5rem;
+}
 
 
 
