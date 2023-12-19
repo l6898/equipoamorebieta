@@ -3,8 +3,11 @@
     box-sizing: border-box;
  }
 
- /*estilo contenedor principal*/
-body {   position: relative; 
+:root{--principal:#1512AF;
+    --secundario:#C1BBCA;
+     --tercero: #F0F8FF; 
+}
+body { 
         min-height: 100vh;
         height: 100%;
         display: grid;
@@ -25,7 +28,7 @@ body {   position: relative;
 /*-------------aqui es el header-------------------*/
 
 
-header {    background-color: #D9D9D9;
+header {    background-color:var(--principal);
             grid-area: header;
             display: flex;
             justify-content: space-between;
@@ -34,11 +37,14 @@ header {    background-color: #D9D9D9;
 
 
 
+ul{ color: white;}
 header ul {  
              width: 100%;
              display: flex;
              justify-content: space-around;
-             align-items: center;  
+             align-items: center;
+            
+               
            }
  header ul li { list-style: none;}           
  
@@ -48,14 +54,57 @@ header ul {
             padding: 1rem;        
 }
 
-
- /*------------------------------aqui empieza lo que seria el main-----------*/
-.encabezado_del_body {   
-                        background-color: white;
-                        grid-area: contenedor1;        
+ 
+.encabezado_del_body { background-color:var(--secundario);
+                       grid-area: contenedor1;        
 }
 
-.carruselDefotos {  border: 1rem solid black;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------aquiempieza el ccs de la  tabla clasificacion*/
+
+.celdaClasificacion { 
+                       display: grid;
+                       grid-template-columns: 5rem  auto repeat(8 ,10rem); 
+                       grid-template-rows: repeat(24, 5rem);
+                       margin-left: 1rem;    
+                  
 
 }
 
@@ -83,6 +132,14 @@ header ul {
 
 
          
+.plantilla { 
+                position: absolute; 
+                width: 100%;
+                display: flex;
+                flex-direction: column; 
+                justify-content: space-between; 
+                gap:10rem   
+}
 .plantilla {    position: absolute; 
                 width: 100%; 
         }
@@ -131,15 +188,36 @@ header ul {
         /*esto es el CCS del formulario*/
 
 
-form {
-    /* Centrar el formulario en la página */
-   
-    margin:13rem auto;
-    width: 80%;
-    min-height: 100vh;
-    /* Esquema del formulario */
-    padding: 1em;
-    border: none;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer { grid-area: footer;
+    background-color: var(--tercero);
     
   }
  
