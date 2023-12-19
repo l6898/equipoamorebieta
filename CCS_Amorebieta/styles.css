@@ -99,10 +99,17 @@ header ul {
 
 /*--------------aquiempieza el ccs de la  tabla clasificacion*/
 
-.celdaClasificacion { display: grid;
-        
+.celdaClasificacion { 
+                       display: grid;
+                       grid-template-columns: 5rem  auto repeat(8 ,10rem); 
+                       grid-template-rows: repeat(24, 5rem);
+                       margin-left: 1rem;    
+                  
 
 }
+
+
+
 
 
 
