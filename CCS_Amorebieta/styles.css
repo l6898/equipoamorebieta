@@ -14,7 +14,7 @@ body {   position: relative;
         ;
 
       /*esto es la cuadricula*/
-      grid-auto-rows: 10rem 50rem  40rem;
+      grid-auto-rows: 10rem 100rem  40rem;
             
        }
 
@@ -47,10 +47,29 @@ header ul {
 
 
  /*------------------------------aqui empieza lo que seria el main-----------*/
-.encabezado_del_body {  border: 1rem solid red; 
+.encabezado_del_body {   
                         background-color: white;
                         grid-area: contenedor1;        
 }
+
+.carruselDefotos {  border: 1rem solid black
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*----------aqui tengo el ccs del enlace a equipo senior----------------------------------------------------------------*/
