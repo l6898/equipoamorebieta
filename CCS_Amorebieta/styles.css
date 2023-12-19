@@ -12,6 +12,7 @@ body {   position: relative;
         "contenedor1"
         "footer"
         ;
+        
 
       /*esto es la cuadricula*/
       grid-auto-rows: 10rem 50rem  40rem;
@@ -187,13 +188,11 @@ background-color: aliceblue;
 form {
     /* Centrar el formulario en la página */
    
-    margin: 0.5rem auto;
+    margin:13rem auto;
     width: 80%;
     min-height: 100vh;
     /* Esquema del formulario */
     padding: 1em;
-    border: 1px solid #ccc;
-    border-radius: 1em;
     border: none;
     
   }
@@ -211,29 +210,47 @@ form {
     width: 60%;
     padding: 1rem ;
     margin: 1.5rem auto;
+    background-color: rgb(34, 33, 33);
+    border: none;
+    color:darkgrey;
+    opacity: 0.6;
     
 
   }
-  input,textarea:hover{
-   border-color: #4caf4c;
-
-
-  }
+  
   textarea{
     height: 10rem;
     padding: 0.75rem;
-    
+    color: darkgrey;
   }
  
    
   
   button {
-    /* Este margen adicional representa aproximadamente el mismo espacio que el espacio
-       entre las etiquetas y sus campos de texto */
-  
+ 
    padding: 1rem 2rem;
     margin-left: 50%;
-    
+    background-color: rgb(34, 33, 33);
+    color:darkgrey;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0,0, 80);
+    opacity: 0.8;
+
+  }
+  button:hover{
+    background-color: blueviolet;
   }
 
-  
+  .formulario{
+    /*height: 100vh;
+    width: 100vh;
+    background-image:url(/galeria-rugby/equipacion-hombre.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center center;
+    background-attachment: fixed;*/
+
+    
+    
+
+  }
