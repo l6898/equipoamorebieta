@@ -15,7 +15,7 @@ body {   position: relative;
         
 
       /*esto es la cuadricula*/
-      grid-auto-rows: 10rem 100rem  40rem;
+      grid-auto-rows: 10rem 100rem  60rem;
             
        }
 
@@ -129,9 +129,9 @@ background-color: aliceblue;
          
     
 }
-.contenedor-footer{ 
+.contenedor-footer{ border: 1rem solid red;
                 width: 100%;
-                height: 20rem;
+                height: 40rem;
                                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
@@ -165,11 +165,12 @@ background-color: aliceblue;
                 height: 150px;
 
                 }
-.redes_sociales{width: 100%;
-            height: auto;
-            padding-top: 0.5rem;
-            display: flex;
-            justify-content: center;
+.redes_sociales{ border: 1rem solid red;
+                width: 100%;
+                height: auto;
+                padding-top: 0.5rem;
+                display: flex;
+                 justify-content: center;
 }
 .redes_sociales ul{width: 25%;
             height: 5rem;
@@ -243,7 +244,88 @@ form {
     border: none;
     color:darkgrey;
     opacity: 0.6;
+}
+
+.noticias_general{width: 100%;
+                    height: auto;
+
+}
+.contenedor_noticias{   width: 100%;
+                        height: auto;
+                        margin: 0 auto;
+                        display: flex;
+                        padding-top: 0.1rem;
+                        padding-bottom: 2rem;
+                        justify-content: center;
+                        align-items: center;
+                        flex-direction: column;
+
+}
+.portada1{width: 100%;
+            height: 42rem;
+            display: flex;
+            justify-content: center;
+            padding-left: 2rem;
+            padding-right: 2rem;
+            padding-bottom: 2rem;
+
+}
+figcaption{text-align: center;
+
+}
+.portada1 img{width: 100%;
+    height: auto;
     
+
+}
+.noticia1{width: 60%;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+    }
+.noticia1 h1{font-size: 2rem;
+
+}
+
+.noticia1 h4{font-size: 1.5rem;
+
+}
+
+.noticia1 p{font-size: 1.3rem;
+
+}
+
+.cuerpo_noticia1{   width: 100%;
+                    height: auto;
+                    padding: 2rem;
+                    text-align: justify;
+                    
+                                        }
+
+.tyc{width: 100%;
+        height: 3rem;
+        display: flex;
+        justify-content: center;
+}
+
+.tyc ul{width: 30%;
+        height: 2rem;
+        padding: 0.5rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        float: right;
+
+}
+.noticia2{  width: 60%;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            
+}
+.noticia2 h1{font-size: 2rem;  
 
   }
   
@@ -266,31 +348,80 @@ form {
     opacity: 0.8;
 
   }
+
   button:hover{
     background-color: blueviolet;
   }
 
-/*   .formulario{
-    height: 100vh;
-    width: 100vh;
-    background-image:url(/galeria-rugby/equipacion-hombre.jpg);
-    background-size: cover;
-    background-repeat: no-repeat; 
-    background-position: center center;
-    background-attachment: fixed;
 
-    
-    
+.portada2       {width: 100%;
+                height: 50rem;
+               /*  display: flex;
+                justify-content: center; */
+                
+            }
+.portada2 img{width: 100%;
+                height: auto;
+                padding: 2rem;}
 
-  } */
+.noticia2 h4{font-size: 1.5rem; 
+                        text-align: justify;    
+                        }
+                
+.noticia2 p{font-size: 1.3rem;
+            text-align: justify;
+            
+                }
+                
+.cuerpo_noticia2{   width: 100%;
+                    height: auto;
+                    padding: 2rem;
+                    text-align: justify;
+        }
+
+.portada3{width: 100%;
+            height: 40rem;
+            display: flex;
+            justify-content: center;
+            padding: 2rem;
+        
+        }
+.portada3 img{width: 100%;
+            height: auto;}
+        
+.noticia3{width: 60%;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            padding: 1rem;
+            margin: 0 auto;
+        }
+.noticia3 h1{font-size: 2rem;
+        
+        }
+        
+.noticia3 h4{font-size: 1.5rem;
+        
+        }
+        
+.noticia3 p{font-size: 1.3rem;
+        
+        }
+        
+.cuerpo_noticia3{   width: 100%;
+                            height: auto;
+                            padding: 2rem;
+                            text-align: justify;}
 
 
-  /* Desde acá inicia el CSS de las categorías */
 
-  .footer_categorias{   width: 80%;
-                        height: 38%;
-                        display: flex;
+/* A partir de esta línea se da inicio al estilo de las categorías */
 
+.categorias_general{width: 100%;
+                    height: 100rem;
+                    display: flex;
+                    
 
   }
 
@@ -324,7 +455,79 @@ form {
 
 }
 
-.juvenil p{padding: 1rem;
-                font-size: 1.5rem;
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /*--------aquies css de abderrAHMANE---*/
+    
+
+
+
+.formulario{
+    height: 100vh;
+    width: 100vh;
+    background-image:url(/galeria-rugby/equipacion-hombre.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center center;
+    background-attachment: fixed;
+
+        }
