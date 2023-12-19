@@ -10,8 +10,7 @@ body {   position: relative;
         grid-template-areas: 
         "header"
         "contenedor1"
-        "footer"
-        ;
+        "footer";
         
 
       /*esto es la cuadricula*/
@@ -53,7 +52,7 @@ header ul {
                         grid-area: contenedor1;        
 }
 
-.carruselDefotos {  border: 1rem solid black
+.carruselDefotos {  border: 1rem solid black;
 
 }
 
@@ -94,7 +93,7 @@ header ul {
                flex-direction: column;
                justify-content: space-between;
                gap: 10rem;
-               color: antiquewhite
+               color: antiquewhite;
                
         } 
         
@@ -127,7 +126,7 @@ header ul {
 
 
 footer { grid-area: footer;
-background-color: aliceblue;
+         background-color: aliceblue;
          
     
 }
@@ -163,17 +162,17 @@ background-color: aliceblue;
                 }
     
         
-.list_patrocinadores img{width: 150px;
-                height: 150px;
+.list_patrocinadores img {  width: 150px;
+                           height: 150px;
 
-                }
-.redes_sociales{ border: 1rem solid red;
-                width: 100%;
-                height: auto;
-                padding-top: 0.5rem;
-                display: flex;
+                        }
+.redes_sociales { border: 1rem solid red;
+                 width: 100%;
+                 height: auto;
+                 padding-top: 0.5rem;
+                 display: flex;
                  justify-content: center;
-}
+                }
 .redes_sociales ul{width: 25%;
             height: 5rem;
             padding: 1rem;
@@ -186,35 +185,35 @@ background-color: aliceblue;
             
 }
               
-.titulo_patrocinadores2{width: 100%;
-                    height: 1rem;
-                    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-                    font-style: italic;
-                    font-size: 1.2rem;
-                    display: flex;
-                    padding-left: 75rem;
-                    }
-.line_icon{width: 100%;
-            height: 1rem;
-            align-items: center;
+.titulo_patrocinadores2 {    width: 100%;
+                             height: 1rem;
+                             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                            font-style: italic;
+                            font-size: 1.2rem;
+                            display: flex;
+                            padding-left: 75rem;
+                        }
+
+.line_icon { width: 100%;
+             height: 1rem;
+             align-items: center;
             }
-.fa-brands{font-size: 2rem;
+
+            .fa-brands{font-size: 2rem;
                 }
-.logo-redes{width: 2rem;
+.logo-redes {width: 2rem;
             height: 2rem;
             }
-.copyright{width: 100%;
+.copyright {width: 100%;
             height: 5rem;
             display: flex;
             justify-content: center;
             align-items: center;
+        }
 
 
 
-}
-
-
-/* A partir de acá se empleará el CSS de la sección noticias */
+        /*esto es el CCS del formulario*/
 
 
 form {
@@ -230,13 +229,11 @@ form {
   }
  
  
-  label{
-    display: block;
-    margin: 0.5rem;
-    
-
-  }
-  input,textarea{
+label {
+         display: block;
+         margin: 0.5rem;
+    }
+input,textarea {
     display: flex;
     justify-content: center;
     width: 60%;
@@ -248,6 +245,94 @@ form {
     opacity: 0.6;
 }
 
+
+textarea{
+        height: 10rem;
+        padding: 0.75rem;
+        color: darkgrey;
+      }
+
+button {
+ 
+        padding: 1rem 2rem;
+         margin-left: 50%;
+         background-color: rgb(34, 33, 33);
+         color:darkgrey;
+         border: none;
+         box-shadow: 0 0 10px rgba(0, 0,0, 80);
+         opacity: 0.8;
+     
+       }
+     
+button:hover{
+         background-color: blueviolet;
+       }
+     
+.formulario { background-color: 1rem solid red;
+      /*  height: 100vh;
+        width: 100vh; */
+        background-image:url(/galeria-rugby/equipacion-hombre.jpg);
+        background-size: cover;
+        background-repeat: no-repeat; 
+        background-position: center center;
+        background-attachment: fixed;
+    
+    }
+    
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------aqui empieza el style de noticias*/
 .noticias_general{width: 100%;
                     height: auto;
 
@@ -331,38 +416,18 @@ figcaption{text-align: center;
 
   }
   
-  textarea{
-    height: 10rem;
-    padding: 0.75rem;
-    color: darkgrey;
-  }
- 
+  
    
   
-  button {
- 
-   padding: 1rem 2rem;
-    margin-left: 50%;
-    background-color: rgb(34, 33, 33);
-    color:darkgrey;
-    border: none;
-    box-shadow: 0 0 10px rgba(0, 0,0, 80);
-    opacity: 0.8;
+  
 
-  }
-
-  button:hover{
-    background-color: blueviolet;
-  }
-
-
-.portada2       {width: 100%;
-                height: 50rem;
+.portada2  { width: 100%;
+             height: 50rem;
                /*  display: flex;
                 justify-content: center; */
                 
-            }
-.portada2 img{width: 100%;
+        }
+.portada2 img  {width: 100%;
                 height: auto;
                 padding: 2rem;}
 
@@ -512,18 +577,8 @@ ________________________________________________________________________________
 
 
 
-        /*--------aquies css de abderrAHMANE---*/
+        
     
 
 
 
-.formulario{
-    height: 100vh;
-    width: 100vh;
-    background-image:url(/galeria-rugby/equipacion-hombre.jpg);
-    background-size: cover;
-    background-repeat: no-repeat; 
-    background-position: center center;
-    background-attachment: fixed;
-
-        }
