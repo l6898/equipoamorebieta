@@ -195,7 +195,18 @@ button:hover{
     }
     
      
-
+/*css aviso legal---------------------------------------------------------------------------------------*/
+.cuerpo_aviso { color:rgb(145, 136, 136);
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+        flex-flow: column wrap;
+}
+p{
+        text-align: center;
+        margin: 2rem;
+        
+}
 
 
 
