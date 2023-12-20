@@ -34,7 +34,7 @@ header {    background-color:var(--principal);
 
 
 
-header ul {  
+.menu {  
              width: 100%;
              display: flex;
              justify-content: space-around;
@@ -58,6 +58,8 @@ header ul {
 .carruselDefotos {  border: 1rem solid black;
 
 }
+
+
 
 
 
@@ -623,6 +625,11 @@ footer { grid-area: footer;
 
         
     
+
+
+
+
+
 
 
 
