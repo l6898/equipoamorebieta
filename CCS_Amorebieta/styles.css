@@ -28,7 +28,7 @@ body {
 /*-------------aqui es el header-------------------*/
 
 
-header {    background-color:var(--principal);
+header {    /* background-color:var(--principal); */
             grid-area: header;
             display: flex;
             justify-content: space-between;
@@ -479,7 +479,7 @@ figcaption{text-align: center;
 /* A partir de esta línea se da inicio al estilo de las categorías */
 
   .categorias_general{width: 100%;
-                        height: 455rem;
+                        height: auto;
                         display: flex;
   }
 
@@ -656,13 +656,13 @@ figcaption{text-align: center;
 
 
 footer { grid-area: footer;
-         background-color: aliceblue;
+         
          
     
 }
-.contenedor-footer{ border: 1rem solid red;
+.contenedor-footer{
                 width: 100%;
-                height: 40rem;
+                height: 26rem;
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
@@ -696,7 +696,7 @@ footer { grid-area: footer;
                            height: 150px;
 
                         }
-.redes_sociales { border: 1rem solid red;
+.redes_sociales { 
                  width: 100%;
                  height: auto;
                  padding-top: 0.5rem;
@@ -730,7 +730,7 @@ footer { grid-area: footer;
             }
 
             .fa-brands{font-size: 2rem;
-                }
+                color: black;}
 .logo-redes {width: 2rem;
             height: 2rem;
             }
