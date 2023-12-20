@@ -2,11 +2,14 @@
     padding: 0;
     box-sizing: border-box;
  }
+ body { 
+        border: 1rem solid yellow; 
+ }
 
  /*estilo contenedor principal*/
 #body {    
-        /* min-height: 100vh; */
-       /* height: 100%;*/
+         min-height: 100vh; 
+      
         display: grid;
         position: relative;
         grid-template-areas: 
@@ -666,7 +669,9 @@ footer { grid-area: footer;
                  justify-content: center;
                  margin: 0 auto;                 
                 }
-.redes_sociales ul{width: 25%;
+.redes_sociales ul{ border: 1rem solid red;
+        
+             width: 25%;
             height: 5rem;
             display: flex;
             justify-content: center;
