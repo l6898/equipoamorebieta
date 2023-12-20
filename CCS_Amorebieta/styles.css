@@ -8,15 +8,16 @@ body {   position: relative;
         min-height: 100vh;
         height: 100%;
         display: grid;
-        border: 1 rem solid rgb(51, 0, 255);
+           
         grid-template-areas: 
         "header"
         "contenedor1"
+        "contenedor2"
         "footer";
         
 
       /*esto es la cuadricula*/
-      grid-auto-rows: 10rem 100rem  60rem;
+      grid-auto-rows: 10rem 100rem 60rem 30rem;
       
             
        }
@@ -55,9 +56,20 @@ header {    background-color:var(--principal);
                         grid-area: contenedor1;        
 }
 
-.carruselDefotos {  border: 1rem solid black;
+.carruselDefotos {  
 
 }
+
+
+
+
+
+/*aqui empieza la segunda seccion donde va la tabla del equipo*/
+
+.clasificasionDelequipo { border: 1rem solid green;
+                          grid-area: contenedor2;
+}
+
 
 
 
