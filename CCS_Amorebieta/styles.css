@@ -6,7 +6,7 @@
  /*estilo contenedor principal*/
 body {   position: relative; 
         min-height: 100vh;
-        height: 100%;
+        height: auto;
         display: grid;
         border: 1 rem solid rgb(51, 0, 255);
         grid-template-areas: 
@@ -16,7 +16,7 @@ body {   position: relative;
         
 
       /*esto es la cuadricula*/
-      grid-auto-rows: 10rem 100rem  60rem;
+      grid-auto-rows: 10rem 100rem  30rem;
       
             
        }
@@ -424,13 +424,13 @@ figcaption{text-align: center;
 /* A partir de esta línea se da inicio al estilo de las categorías */
 
   .categorias_general{width: 100%;
-                        height: 455rem;
+                        height: auto;
                         display: flex;
 
   }
 
   .contenedor_categorias{width: 80%;
-                        height: auto;
+                        height: 500rem;
                         border: 0.1rem solid red;
                         display: flex;
                         flex-direction: column;
@@ -511,10 +511,62 @@ figcaption{text-align: center;
 .benjamin p{            padding: 2rem;
                         font-size: 1.5rem;
 }
+/* ---Alevines--- */
 
+.alevines{              width: 100%;
+                        height: auto;
+                        padding: 1rem;
+}
+.cat_alevines{          padding: 2rem;
+}
+.cat_alevines img{      width: 100%;
+                        height: 20%;
+}
+.alevines h1{           font-size: 3rem;
+                        text-align: center;
+                        padding: 1rem;
+}
+.alevines p{            padding: 2rem;
+                        font-size: 1.5rem;
+}
 
+/* --- Infantiles federados --- */
 
+.infantiles_federados{  width: 100%;
+                        height: auto;
+                        padding: 1rem;
+}
+.cat_infantil{          padding: 2rem;        
+}
+.cat_infantil img{      width: 100%;
+                        height: 20%;
+}
+.infantiles_federados h1{       font-size: 3rem;
+                                text-align: center;
+                                padding: 1rem;
+}
+.infantiles_federados p{        padding: 2rem;
+                                font-size: 1.5rem;
+}
 
+/* --- Cadetes Federados --- */
+
+.cadetes_federados{             width: 100%;
+                                height: auto;
+                                padding: 1rem;
+}
+.cat_cadetesfederados{          padding: 2rem;
+}
+.cat_cadetesfederados img{      width: 100%;
+                                height: 20%;
+}
+.cadetes_federados h1{          font-size: 3rem;
+                                text-align: center;
+                                padding: 1rem;
+}
+.cadetes_federados p{           padding: 2rem;
+                                font-size: 1.5rem;
+}
 
 
 
@@ -542,6 +594,7 @@ figcaption{text-align: center;
 
 
 footer { grid-area: footer;
+       border: 1rem solid rgb(240, 14, 14);
          
          
     
@@ -553,6 +606,7 @@ footer { grid-area: footer;
                 flex-direction: column;
                 justify-content: space-between;
                 padding: 1rem;
+                /* border: 1rem solid red; */
                 
                 
 }
