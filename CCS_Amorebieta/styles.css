@@ -216,15 +216,20 @@ button:hover{
     
      
 /*css aviso legal---------------------------------------------------------------------------------------*/
-.cuerpo_aviso { color:rgb(145, 136, 136);
+.cuerpo_aviso { width: 100%;
         justify-content: space-between;
         align-items: center;
         display: flex;
         flex-flow: column wrap;
+        padding: 2rem;
 }
-p{
-        text-align: center;
+.cuerpo_aviso h1{font-size: 3rem;
+
+}
+.cuerpo_aviso p{
+        text-align: justify;
         margin: 2rem;
+        font-size: 1.2rem;      
         
 }
 
@@ -396,7 +401,7 @@ figcaption{text-align: center;
                 
 .cuerpo_noticia2{   width: 100%;
                     height: auto;
-                    padding: 2rem;
+                    padding: 1rem;
                     text-align: justify;
         }
 
@@ -435,7 +440,7 @@ figcaption{text-align: center;
         
 .cuerpo_noticia3{           width: 100%;
                             height: auto;
-                            padding: 2rem;
+                            padding: 1rem;
                             text-align: justify;
         }
 
