@@ -4,19 +4,21 @@
  }
 
  /*estilo contenedor principal*/
-body {   position: relative; 
+body {    
         min-height: 100vh;
-        height: auto;
+       /* height: 100%;*/
         display: grid;
-        border: 1 rem solid rgb(51, 0, 255);
+        position: relative;
+           
         grid-template-areas: 
         "header"
         "contenedor1"
+        "contenedor2"
         "footer";
         
 
       /*esto es la cuadricula*/
-      grid-auto-rows: 10rem 100rem  30rem;
+      grid-auto-rows: 10rem 30rem 30rem 40rem;
       
             
        }
@@ -34,7 +36,7 @@ header {    background-color:var(--principal);
 
 
 
-header ul {  
+.menu {  
              width: 100%;
              display: flex;
              justify-content: space-around;
@@ -50,14 +52,30 @@ header ul {
 
 
  /*------------------------------aqui empieza lo que seria el main-----------*/
-.encabezado_del_body {   
+
+
+
+.encabezado_del_body {   border: 1rem solid blue;
                         background-color: white;
                         grid-area: contenedor1;        
 }
 
-.carruselDefotos {  border: 1rem solid black;
+/* .carruselDefotos {  
 
 }
+ */
+
+
+
+
+/*aqui empieza la segunda seccion donde va la tabla del equipo*/
+
+.clasificasionDelequipo { border: 1rem solid green;
+                          grid-area: contenedor2;
+}
+
+
+
 
 
 
@@ -120,6 +138,9 @@ header ul {
              
              
             }
+#footer { background-color:wheat;
+
+}
 
 
 
@@ -594,7 +615,6 @@ figcaption{text-align: center;
 
 
 footer { grid-area: footer;
-       border: 1rem solid rgb(240, 14, 14);
          
          
     
@@ -606,7 +626,6 @@ footer { grid-area: footer;
                 flex-direction: column;
                 justify-content: space-between;
                 padding: 1rem;
-                /* border: 1rem solid red; */
                 
                 
 }
@@ -619,11 +638,11 @@ footer { grid-area: footer;
                     font-style: italic;
                     display: flex;
                     justify-content: center;
-                    padding: 1rem;
+                  /*  padding: 1rem;*/
 }
 .list_patrocinadores{width: 90%;
                 height: 10rem;
-                padding: 1rem;
+               /* padding: 1rem;*/
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
@@ -645,7 +664,7 @@ footer { grid-area: footer;
                 }
 .redes_sociales ul{width: 25%;
             height: 5rem;
-            padding: 1rem;
+           /* padding: 1rem;*/
             display: flex;
             justify-content: center;
             gap: 4rem;
@@ -708,6 +727,11 @@ footer { grid-area: footer;
 
         
     
+
+
+
+
+
 
 
 
