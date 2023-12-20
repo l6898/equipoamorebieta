@@ -202,7 +202,7 @@ button:hover{
         display: flex;
         flex-flow: column wrap;
 }
-p{
+.aviso-texto{
         text-align: center;
         margin: 2rem;
         
@@ -213,6 +213,34 @@ p{
 
 
 
+
+
+/*css mapa--------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+.mapa {
+        font-family: 'Arial', sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh; /* Ensure the body takes up the full height of the viewport */
+        margin: 0; /* Remove default margin */
+      }
+  
+      .ubicación {
+        color: #333;
+        text-align: center;
+      }
+  
+      .mapa2 {
+        border: 2px solid #ccc;
+        border-radius: 8px;
+        margin-top: 10px;}
 
 
 
