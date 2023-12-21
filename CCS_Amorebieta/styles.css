@@ -2,29 +2,25 @@
     padding: 0;
     box-sizing: border-box;
  }
+ body { 
+        border: 1rem solid yellow; 
+ }
 
-<<<<<<< HEAD
-:root{--principal:#1512AF;
-    --secundario:#C1BBCA;
-     --tercero: #F0F8FF; 
-}
-body { 
-=======
  /*estilo contenedor principal*/
-body {   position: relative; 
->>>>>>> b371fc4101494e449683545e0a0753e337386069
-        min-height: 100vh;
-        height: 100%;
+#body {    
+         min-height: 100vh; 
+      
         display: grid;
-        border: 1 rem solid rgb(51, 0, 255);
+        position: relative;
         grid-template-areas: 
         "header"
         "contenedor1"
+        "contenedor2"
         "footer";
         
 
       /*esto es la cuadricula*/
-      grid-auto-rows: 10rem 100rem  60rem;
+      grid-auto-rows: 10rem 30rem 30rem 40rem;
       
             
        }
@@ -42,20 +38,14 @@ header {    background-color:var(--principal);
 
 
 
-ul{ color: white;}
-header ul {  
+.menu {  
              width: 100%;
              display: flex;
              justify-content: space-around;
-<<<<<<< HEAD
-             align-items: center;
-            
-               
-=======
              align-items: center;  
->>>>>>> b371fc4101494e449683545e0a0753e337386069
            }
  
+<<<<<<< HEAD
 
 
 
@@ -79,8 +69,47 @@ header ul {
 
 .celdaClasificacion { display: grid;
         
+=======
+ header a {   
+            text-decoration: none;
+            font-size: 2rem;
+            padding: 1rem;        
+}
+
+
+ /*------------------------------aqui empieza lo que seria el main-----------*/
+
+
+
+.encabezado_del_body {   border: 1rem solid blue;
+                        background-color: white;
+                        grid-area: contenedor1;        
+}
+
+/* .carruselDefotos {  
+>>>>>>> 1d21ce6fece1bb121101583762142f39765e4c4e
 
 }
+ */
+
+
+
+
+/*aqui empieza la segunda seccion donde va la tabla del equipo*/
+
+.clasificasionDelequipo { border: 1rem solid green;
+                          grid-area: contenedor2;
+}
+
+.celdaClasificacion { 
+                        display: grid;
+                        grid-template-columns: repeat(10, auto) ;
+                        grid-template-rows: repeat(24, 5rem);
+}  
+
+
+
+
 
 
 
@@ -103,16 +132,6 @@ header ul {
 
 
          
-<<<<<<< HEAD
-.plantilla { 
-                position: absolute; 
-                width: 100%;
-                display: flex;
-                flex-direction: column; 
-                justify-content: space-between; 
-                gap:10rem   
-}
-=======
 .plantilla {    position: absolute; 
                 width: 100%; 
         }
@@ -120,7 +139,6 @@ header ul {
 .h1plantilla {  color:white;
                font-size: 6rem;
         }
->>>>>>> b371fc4101494e449683545e0a0753e337386069
 
 .main_senior { 
                display: flex;
@@ -151,6 +169,9 @@ header ul {
              
              
             }
+#footer { background-color:wheat;
+
+}
 
 
 
@@ -162,38 +183,6 @@ header ul {
         /*esto es el CCS del formulario*/
 
 
-<<<<<<< HEAD
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-footer { grid-area: footer;
-    background-color: var(--tercero);
-=======
 form {
     /* Centrar el formulario en la página */
    
@@ -203,7 +192,6 @@ form {
     /* Esquema del formulario */
     padding: 1em;
     border: none;
->>>>>>> b371fc4101494e449683545e0a0753e337386069
     
   }
  
@@ -259,6 +247,23 @@ button:hover{
     }
     
      
+/*css aviso legal---------------------------------------------------------------------------------------*/
+.cuerpo_aviso { width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+        flex-flow: column wrap;
+        padding: 2rem;
+}
+.cuerpo_aviso h1{font-size: 3rem;
+
+}
+p{
+        text-align: center;
+        margin: 2rem;
+        font-size: 1.2rem;      
+        
+}
 
 
 
@@ -266,6 +271,34 @@ button:hover{
 
 
 
+
+/*css mapa--------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+.mapa {  
+        font-family: 'Arial', sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh; /* Ensure the body takes up the full height of the viewport */
+        margin: 0; /* Remove default margin */
+      }
+  
+      .ubicación { 
+        color: #333;
+        text-align: center;
+        align-content: flex-start;
+      }
+  
+      .mapa2 {
+        border: 2px solid #ccc;
+        border-radius: 8px;
+        margin-top: 10px;}
 
 
 
@@ -325,8 +358,8 @@ button:hover{
                         justify-content: center;
                         align-items: center;
                         flex-direction: column;
+                        }
 
-}
 .portada1{width: 100%;
             height: 42rem;
             display: flex;
@@ -351,23 +384,29 @@ figcaption{text-align: center;
             flex-direction: column;
     }
 .noticia1 h1{font-size: 2rem;
+        padding: 2rem;
 
 }
 
 .noticia1 h4{font-size: 1.5rem;
+        padding: 2rem;
 
 }
 
 .noticia1 p{font-size: 1.3rem;
+        text-align: justify;
 
 }
 
 .cuerpo_noticia1{   width: 100%;
-                    height: auto;
-                    padding: 2rem;
+                    height: auto; 
+                    padding: 1rem;                   
                     text-align: justify;
-                    
-                                        }
+                }
+
+
+
+
 
 .tyc{width: 100%;
         height: 3rem;
@@ -392,6 +431,7 @@ figcaption{text-align: center;
             
 }
 .noticia2 h1{font-size: 2rem;  
+                padding: 2rem;
 
   }
   
@@ -411,7 +451,8 @@ figcaption{text-align: center;
                 padding: 2rem;}
 
 .noticia2 h4{font-size: 1.5rem; 
-                        text-align: justify;    
+                text-align: justify;
+                padding: 2rem;    
                         }
                 
 .noticia2 p{font-size: 1.3rem;
@@ -421,7 +462,7 @@ figcaption{text-align: center;
                 
 .cuerpo_noticia2{   width: 100%;
                     height: auto;
-                    padding: 2rem;
+                    padding: 1rem;
                     text-align: justify;
         }
 
@@ -441,39 +482,41 @@ figcaption{text-align: center;
             justify-content: center;
             flex-direction: column;
             padding: 1rem;
-            margin: 0 auto;
+            text-align: justify;
         }
 .noticia3 h1{font-size: 2rem;
+        padding: 2rem;
         
         }
         
 .noticia3 h4{font-size: 1.5rem;
+        padding: 2rem;
         
         }
         
 .noticia3 p{font-size: 1.3rem;
+                text-align: justify;
         
         }
         
-.cuerpo_noticia3{   width: 100%;
+.cuerpo_noticia3{           width: 100%;
                             height: auto;
-                            padding: 2rem;
-                            text-align: justify;}
+                            padding: 1rem;
+                            text-align: justify;
+        }
 
 
 
 /* A partir de esta línea se da inicio al estilo de las categorías */
 
   .categorias_general{width: 100%;
-                        height: 300rem;
-                        border: 0.2rem solid black;
+                        height: auto;
                         display: flex;
 
   }
 
   .contenedor_categorias{width: 80%;
                         height: auto;
-                        border: 0.1rem solid red;
                         display: flex;
                         flex-direction: column;
                         align-items: center;
@@ -505,7 +548,7 @@ figcaption{text-align: center;
                 font-size: 1.5rem;
 }
 
-
+/* Pre benjamines */
 
 
 .pre_benjamin{  width: 100%;
@@ -534,10 +577,81 @@ figcaption{text-align: center;
 
 }
 
+/* Benjamín */
 
+.benjamin{      width: 100%;
+                height: auto;
+                padding: 1rem;
+}
+.cat_sub12{     padding: 2rem;
 
+}
+.cat_sub12 img{         width: 100%;
+                        height: 20%;
+}
+.benjamin h1{           font-size: 3rem;
+                        text-align: center;
+                        padding: 1rem;
+}
+.benjamin p{            padding: 2rem;
+                        font-size: 1.5rem;
+}
+/* ---Alevines--- */
 
+.alevines{              width: 100%;
+                        height: auto;
+                        padding: 1rem;
+}
+.cat_alevines{          padding: 2rem;
+}
+.cat_alevines img{      width: 100%;
+                        height: 20%;
+}
+.alevines h1{           font-size: 3rem;
+                        text-align: center;
+                        padding: 1rem;
+}
+.alevines p{            padding: 2rem;
+                        font-size: 1.5rem;
+}
 
+/* --- Infantiles federados --- */
+
+.infantiles_federados{  width: 100%;
+                        height: auto;
+                        padding: 1rem;
+}
+.cat_infantil{          padding: 2rem;        
+}
+.cat_infantil img{      width: 100%;
+                        height: 20%;
+}
+.infantiles_federados h1{       font-size: 3rem;
+                                text-align: center;
+                                padding: 1rem;
+}
+.infantiles_federados p{        padding: 2rem;
+                                font-size: 1.5rem;
+}
+
+/* --- Cadetes Federados --- */
+
+.cadetes_federados{             width: 100%;
+                                height: auto;
+                                padding: 1rem;
+}
+.cat_cadetesfederados{          padding: 2rem;
+}
+.cat_cadetesfederados img{      width: 100%;
+                                height: 20%;
+}
+.cadetes_federados h1{          font-size: 3rem;
+                                text-align: center;
+                                padding: 1rem;
+}
+.cadetes_federados p{           padding: 2rem;
+                                font-size: 1.5rem;
+}
 
 
 
@@ -565,13 +679,13 @@ figcaption{text-align: center;
 
 
 footer { grid-area: footer;
-         background-color: aliceblue;
+         
          
     
 }
-.contenedor-footer{ border: 1rem solid red;
+.contenedor-footer{
                 width: 100%;
-                height: 40rem;
+                height: 26rem;
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
@@ -588,11 +702,11 @@ footer { grid-area: footer;
                     font-style: italic;
                     display: flex;
                     justify-content: center;
-                    padding: 1rem;
+                  /*  padding: 1rem;*/
 }
 .list_patrocinadores{width: 90%;
                 height: 10rem;
-                padding: 1rem;
+               /* padding: 1rem;*/
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
@@ -605,33 +719,26 @@ footer { grid-area: footer;
                            height: 150px;
 
                         }
-.redes_sociales { border: 1rem solid red;
+.redes_sociales { 
                  width: 100%;
                  height: auto;
                  padding-top: 0.5rem;
                  display: flex;
                  justify-content: center;
+                 margin: 0 auto;                 
                 }
-.redes_sociales ul{width: 25%;
+.redes_sociales ul{ border: 1rem solid red;
+        
+             width: 25%;
             height: 5rem;
-            padding: 1rem;
             display: flex;
             justify-content: center;
             gap: 4rem;
             align-items: center;
             list-style: none;
-            float: right;
+            
             
 }
-              
-.titulo_patrocinadores2 {    width: 100%;
-                             height: 1rem;
-                             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-                            font-style: italic;
-                            font-size: 1.2rem;
-                            display: flex;
-                            padding-left: 75rem;
-                        }
 
 .line_icon { width: 100%;
              height: 1rem;
@@ -639,7 +746,7 @@ footer { grid-area: footer;
             }
 
             .fa-brands{font-size: 2rem;
-                }
+                color: black;}
 .logo-redes {width: 2rem;
             height: 2rem;
             }
@@ -677,6 +784,11 @@ footer { grid-area: footer;
 
         
     
+
+
+
+
+
 
 
 
