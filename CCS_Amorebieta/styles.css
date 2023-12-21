@@ -467,13 +467,12 @@ figcaption{text-align: center;
 
 .noticia1 p{    font-size: 1.3rem;
                 text-align: justify;
-                padding: 1rem;
+                
 }
 
 .cuerpo_noticia1{   width: 100%;
                     height: auto; 
-                    padding: 1rem;                  
-                    text-align: justify;
+                text-align: justify;
                 }
 
 
@@ -503,6 +502,7 @@ figcaption{text-align: center;
             
 }
 .noticia2 h1{font-size: 2rem;  
+        padding: 1rem;
                   }
   
 .portada2  { width: 100%;
@@ -513,22 +513,22 @@ figcaption{text-align: center;
         }
 .portada2 img  {width: 100%;
                 height: auto;
-                padding: 2rem;
+                
                 
         }
 
 .noticia2 h4{font-size: 1.5rem; 
                 text-align: justify;
+                padding: 2rem;
         }
                 
 .noticia2 p{font-size: 1.3rem;
             text-align: justify;
-            
-                }
+            padding: 2rem;
+}
                 
 .cuerpo_noticia2{   width: 100%;
-                    height: auto;
-                    padding: 2rem;
+                    height: auto;                    
                     text-align: justify;
         }
 
@@ -823,6 +823,11 @@ footer { grid-area: footer;
             justify-content: center;
             align-items: center;
         }
+.copyright p{
+        padding-left: 3rem;
+        padding-right: 3rem;
+        font-size: 0.8rem;
+}
 
 
 
