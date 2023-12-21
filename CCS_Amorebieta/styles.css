@@ -2,11 +2,14 @@
     padding: 0;
     box-sizing: border-box;
  }
+ body { 
+        border: 1rem solid yellow; 
+ }
 
  /*estilo contenedor principal*/
 #body {    
-        /* min-height: 100vh; */
-       /* height: 100%;*/
+         min-height: 100vh; 
+      
         display: grid;
         position: relative;
         grid-template-areas: 
@@ -216,15 +219,20 @@ button:hover{
     
      
 /*css aviso legal---------------------------------------------------------------------------------------*/
-.cuerpo_aviso { color:rgb(145, 136, 136);
+.cuerpo_aviso { width: 100%;
         justify-content: space-between;
         align-items: center;
         display: flex;
         flex-flow: column wrap;
+        padding: 2rem;
 }
-.aviso-texto{
+.cuerpo_aviso h1{font-size: 3rem;
+
+}
+p{
         text-align: center;
         margin: 2rem;
+        font-size: 1.2rem;      
         
 }
 
@@ -425,7 +433,7 @@ figcaption{text-align: center;
                 
 .cuerpo_noticia2{   width: 100%;
                     height: auto;
-                    padding: 2rem;
+                    padding: 1rem;
                     text-align: justify;
         }
 
@@ -464,7 +472,7 @@ figcaption{text-align: center;
         
 .cuerpo_noticia3{           width: 100%;
                             height: auto;
-                            padding: 2rem;
+                            padding: 1rem;
                             text-align: justify;
         }
 
@@ -690,7 +698,9 @@ footer { grid-area: footer;
                  justify-content: center;
                  margin: 0 auto;                 
                 }
-.redes_sociales ul{width: 25%;
+.redes_sociales ul{ border: 1rem solid red;
+        
+             width: 25%;
             height: 5rem;
             display: flex;
             justify-content: center;
