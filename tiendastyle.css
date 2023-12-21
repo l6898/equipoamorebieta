@@ -1,7 +1,7 @@
 *{margin: 0;padding: 0;box-sizing: border-box;}
     
     
- header{
+.lourdes{
         display: flex;
         justify-content: space-between;
         padding: 30px 0 40px 0;
@@ -96,10 +96,6 @@
     .contenedor-iconos .hiddencarro{
         display: none;
     }
-    /*
-    .contenedorcarroproducto::before{display: hidden;}
-    
-    .contenedorcarroproducto::after {display: visibility;}*/
     
     
     
