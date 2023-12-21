@@ -2,9 +2,7 @@
     padding: 0;
     box-sizing: border-box;
  }
- body { 
-        border: 1rem solid yellow; 
- }
+
 
  /*estilo contenedor principal*/
 #body {    
@@ -16,11 +14,12 @@
         "header"
         "contenedor1"
         "contenedor2"
+        "contenedor3"
         "footer";
         
 
       /*esto es la cuadricula*/
-      grid-auto-rows: 10rem 30rem 30rem 40rem;
+      grid-auto-rows: 10rem 30rem 40rem 40rem 40rem;
       
             
        }
@@ -38,15 +37,40 @@ header {    background-color:var(--principal);
 
 
 
-.menu {  
+.menu {      
              width: 100%;
              display: flex;
              justify-content: space-around;
              align-items: center;  
+             list-style: none;
            }
- header ul li { list-style: none;}           
  
- header a {   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------aquiempieza el ccs de la  tabla clasificacion*/
+
+.celdaClasificacion { display: grid;}
+        
+
+header a {   
             text-decoration: none;
             font-size: 2rem;
             padding: 1rem;        
@@ -62,20 +86,36 @@ header {    background-color:var(--principal);
                         grid-area: contenedor1;        
 }
 
-/* .carruselDefotos {  
 
-}
- */
 
 
 
 
 /*aqui empieza la segunda seccion donde va la tabla del equipo*/
 
-.clasificasionDelequipo { border: 1rem solid green;
+.clasificasionDelequipo { 
                           grid-area: contenedor2;
 }
 
+.celdaClasificacion { 
+                        display: grid;
+                        grid-template-columns: repeat(10, auto) ;
+                        grid-template-rows: repeat(24, 5rem);
+}  
+.fondoDiv {  background-color: rgb(8, 46, 46, 0.2);
+        
+}
+
+.frameEquipo {
+                
+                height: 35rem;
+}
+
+.tabla {
+         width: 50rem;
+         height: 20rem;
+
+}
 
 
 
@@ -408,34 +448,32 @@ figcaption{text-align: center;
 
 }
 .portada1 img{width: 100%;
-    height: auto;
-    
-
+                height: auto;                 
 }
 .noticia1{width: 60%;
             height: auto;
             display: flex;
             justify-content: center;
             flex-direction: column;
-    }
+        }
 .noticia1 h1{font-size: 2rem;
-        padding: 2rem;
+        padding: 1rem;    
 
 }
 
 .noticia1 h4{font-size: 1.5rem;
-        padding: 2rem;
+                padding: 1rem;
 
 }
 
-.noticia1 p{font-size: 1.3rem;
-        text-align: justify;
-
+.noticia1 p{    font-size: 1.3rem;
+                text-align: justify;
+                padding: 1rem;
 }
 
 .cuerpo_noticia1{   width: 100%;
                     height: auto; 
-                    padding: 1rem;                   
+                    padding: 1rem;                  
                     text-align: justify;
                 }
 
@@ -466,15 +504,8 @@ figcaption{text-align: center;
             
 }
 .noticia2 h1{font-size: 2rem;  
-                padding: 2rem;
-
-  }
+                  }
   
-  
-   
-  
-  
-
 .portada2  { width: 100%;
              height: 50rem;
                /*  display: flex;
@@ -483,12 +514,13 @@ figcaption{text-align: center;
         }
 .portada2 img  {width: 100%;
                 height: auto;
-                padding: 2rem;}
+                padding: 2rem;
+                
+        }
 
 .noticia2 h4{font-size: 1.5rem; 
                 text-align: justify;
-                padding: 2rem;    
-                        }
+        }
                 
 .noticia2 p{font-size: 1.3rem;
             text-align: justify;
@@ -497,7 +529,7 @@ figcaption{text-align: center;
                 
 .cuerpo_noticia2{   width: 100%;
                     height: auto;
-                    padding: 1rem;
+                    padding: 2rem;
                     text-align: justify;
         }
 
@@ -505,11 +537,12 @@ figcaption{text-align: center;
             height: 40rem;
             display: flex;
             justify-content: center;
-            padding: 2rem;
+            
         
         }
 .portada3 img{width: 100%;
-            height: auto;}
+            height: auto;
+        }
         
 .noticia3{width: 60%;
             height: auto;
@@ -519,14 +552,10 @@ figcaption{text-align: center;
             padding: 1rem;
             text-align: justify;
         }
-.noticia3 h1{font-size: 2rem;
-        padding: 2rem;
-        
+.noticia3 h1{font-size: 2rem;        
         }
         
 .noticia3 h4{font-size: 1.5rem;
-        padding: 2rem;
-        
         }
         
 .noticia3 p{font-size: 1.3rem;
@@ -536,7 +565,7 @@ figcaption{text-align: center;
         
 .cuerpo_noticia3{           width: 100%;
                             height: auto;
-                            padding: 1rem;
+                            padding: 2rem;
                             text-align: justify;
         }
 
@@ -688,7 +717,11 @@ figcaption{text-align: center;
                                 font-size: 1.5rem;
 }
 
+/* espacio para la tienda */
+.espacio_tienda{grid-area: contenedor3;
+                        border: 0.2rem solid red;
 
+}
 
 
 
@@ -762,9 +795,9 @@ footer { grid-area: footer;
                  justify-content: center;
                  margin: 0 auto;                 
                 }
-.redes_sociales ul{ border: 1rem solid red;
+.redes_sociales ul{ 
         
-             width: 25%;
+            width: 25%;
             height: 5rem;
             display: flex;
             justify-content: center;
