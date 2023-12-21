@@ -14,11 +14,12 @@
         "header"
         "contenedor1"
         "contenedor2"
+        "contenedor3"
         "footer";
         
 
       /*esto es la cuadricula*/
-      grid-auto-rows: 10rem 30rem 40rem 40rem;
+      grid-auto-rows: 10rem 30rem 40rem 40rem 40rem;
       
             
        }
@@ -653,7 +654,11 @@ figcaption{text-align: center;
                                 font-size: 1.5rem;
 }
 
+/* espacio para la tienda */
+.espacio_tienda{grid-area: contenedor3;
+                        border: 0.2rem solid red;
 
+}
 
 
 
