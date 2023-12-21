@@ -2,9 +2,7 @@
     padding: 0;
     box-sizing: border-box;
  }
- body { 
-        border: 1rem solid yellow; 
- }
+
 
  /*estilo contenedor principal*/
 #body {    
@@ -20,7 +18,7 @@
         
 
       /*esto es la cuadricula*/
-      grid-auto-rows: 10rem 30rem 30rem 40rem;
+      grid-auto-rows: 10rem 30rem 40rem 40rem;
       
             
        }
@@ -38,14 +36,15 @@ header {    background-color:var(--principal);
 
 
 
-.menu {  
+.menu {      
              width: 100%;
              display: flex;
              justify-content: space-around;
              align-items: center;  
+             list-style: none;
            }
  
-<<<<<<< HEAD
+
 
 
 
@@ -67,10 +66,10 @@ header {    background-color:var(--principal);
 
 /*--------------aquiempieza el ccs de la  tabla clasificacion*/
 
-.celdaClasificacion { display: grid;
+.celdaClasificacion { display: grid;}
         
-=======
- header a {   
+
+header a {   
             text-decoration: none;
             font-size: 2rem;
             padding: 1rem;        
@@ -86,18 +85,14 @@ header {    background-color:var(--principal);
                         grid-area: contenedor1;        
 }
 
-/* .carruselDefotos {  
->>>>>>> 1d21ce6fece1bb121101583762142f39765e4c4e
 
-}
- */
 
 
 
 
 /*aqui empieza la segunda seccion donde va la tabla del equipo*/
 
-.clasificasionDelequipo { border: 1rem solid green;
+.clasificasionDelequipo { 
                           grid-area: contenedor2;
 }
 
@@ -106,6 +101,21 @@ header {    background-color:var(--principal);
                         grid-template-columns: repeat(10, auto) ;
                         grid-template-rows: repeat(24, 5rem);
 }  
+.fondoDiv {  background-color: rgb(8, 46, 46, 0.2);
+        
+}
+
+.frameEquipo {
+                
+                height: 35rem;
+}
+
+.tabla {
+         width: 50rem;
+         height: 20rem;
+
+}
+
 
 
 
@@ -258,10 +268,10 @@ button:hover{
 .cuerpo_aviso h1{font-size: 3rem;
 
 }
-p{
-        text-align: center;
-        margin: 2rem;
-        font-size: 1.2rem;      
+.cuerpo_aviso p{
+                text-align: center;
+                margin: 2rem;
+                font-size: 1.2rem;      
         
 }
 
@@ -293,6 +303,7 @@ p{
         color: #333;
         text-align: center;
         align-content: flex-start;
+        
       }
   
       .mapa2 {
@@ -439,6 +450,7 @@ figcaption{text-align: center;
         }
 .portada2 img  {width: 100%;
                 height: auto;
+                padding: 2rem;
                 
         }
 
@@ -453,7 +465,7 @@ figcaption{text-align: center;
                 
 .cuerpo_noticia2{   width: 100%;
                     height: auto;
-                    padding: 1rem;
+                    padding: 2rem;
                     text-align: justify;
         }
 
@@ -489,7 +501,7 @@ figcaption{text-align: center;
         
 .cuerpo_noticia3{           width: 100%;
                             height: auto;
-                            padding: 1rem;
+                            padding: 2rem;
                             text-align: justify;
         }
 
