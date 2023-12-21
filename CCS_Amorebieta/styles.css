@@ -44,8 +44,32 @@ header {    background-color:var(--principal);
              justify-content: space-around;
              align-items: center;  
            }
- header ul li { list-style: none;}           
  
+<<<<<<< HEAD
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------aquiempieza el ccs de la  tabla clasificacion*/
+
+.celdaClasificacion { display: grid;
+        
+=======
  header a {   
             text-decoration: none;
             font-size: 2rem;
@@ -63,6 +87,7 @@ header {    background-color:var(--principal);
 }
 
 /* .carruselDefotos {  
+>>>>>>> 1d21ce6fece1bb121101583762142f39765e4c4e
 
 }
  */
@@ -76,7 +101,11 @@ header {    background-color:var(--principal);
                           grid-area: contenedor2;
 }
 
-
+.celdaClasificacion { 
+                        display: grid;
+                        grid-template-columns: repeat(10, auto) ;
+                        grid-template-rows: repeat(24, 5rem);
+}  
 
 
 
@@ -229,8 +258,8 @@ button:hover{
 .cuerpo_aviso h1{font-size: 3rem;
 
 }
-.cuerpo_aviso p{
-        text-align: justify;
+p{
+        text-align: center;
         margin: 2rem;
         font-size: 1.2rem;      
         
@@ -241,6 +270,35 @@ button:hover{
 
 
 
+
+
+/*css mapa--------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+.mapa {  
+        font-family: 'Arial', sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh; /* Ensure the body takes up the full height of the viewport */
+        margin: 0; /* Remove default margin */
+      }
+  
+      .ubicación { 
+        color: #333;
+        text-align: center;
+        align-content: flex-start;
+      }
+  
+      .mapa2 {
+        border: 2px solid #ccc;
+        border-radius: 8px;
+        margin-top: 10px;}
 
 
 
