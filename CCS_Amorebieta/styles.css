@@ -94,6 +94,7 @@ header a {
 /*aqui empieza la segunda seccion donde va la tabla del equipo*/
 
 .clasificasionDelequipo { 
+                          display: flex;
                           grid-area: contenedor2;
 }
 
@@ -102,6 +103,10 @@ header a {
                         grid-template-columns: repeat(10, auto) ;
                         grid-template-rows: repeat(24, 5rem);
 }  
+
+.logosClubes {    
+                width: 1rem;
+}
 .fondoDiv {  background-color: rgb(8, 46, 46, 0.2);
         
 }
@@ -115,6 +120,10 @@ header a {
          width: 50rem;
          height: 20rem;
 
+}
+
+.resultado {
+        border: 1rem solid red;
 }
 
 
