@@ -833,10 +833,10 @@ figcaption{text-align: center;
     
     
     
-    body{
+  /*   body{
         max-width: 1200px;
         margin: auto;
-        }
+        } */
     
     
     
@@ -889,7 +889,7 @@ figcaption{text-align: center;
 
 
 .espacio_tienda{grid-area: contenedor3;
-                border: 0.2rem solid red;
+             /*    border: 0.2rem solid rgb(0, 68, 255); */
 }
 .frametienda{
         width: 100%;
