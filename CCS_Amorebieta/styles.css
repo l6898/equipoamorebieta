@@ -76,6 +76,12 @@ header {    background-color:var(--principal);
                           grid-area: contenedor2;
 }
 
+.celdaClasificacion { 
+                        display: grid;
+                        grid-template-columns: repeat(10, auto) ;
+                        grid-template-rows: repeat(24, 5rem);
+}  
+
 
 
 
