@@ -6,8 +6,7 @@
 
  /*estilo contenedor principal*/
 #body {    
-         min-height: 100vh; 
-      
+        min-height: 100vh;
         display: grid;
         position: relative;
         grid-template-areas: 
@@ -19,7 +18,7 @@
         
 
       /*esto es la cuadricula*/
-      grid-auto-rows: 10rem 30rem 40rem 40rem 40rem;
+      grid-auto-rows: 10rem 30rem 40rem 40rem 30rem;
       
             
        }
@@ -94,6 +93,7 @@ header a {
 /*aqui empieza la segunda seccion donde va la tabla del equipo*/
 
 .clasificasionDelequipo { 
+                          display: flex;
                           grid-area: contenedor2;
 }
 
@@ -102,6 +102,10 @@ header a {
                         grid-template-columns: repeat(10, auto) ;
                         grid-template-rows: repeat(24, 5rem);
 }  
+
+.logosClubes {    
+                width: 1rem;
+}
 .fondoDiv {  background-color: rgb(8, 46, 46, 0.2);
         
 }
@@ -115,6 +119,10 @@ header a {
          width: 50rem;
          height: 20rem;
 
+}
+
+.resultado {
+        border: 1rem solid red;
 }
 
 
@@ -259,36 +267,33 @@ button:hover{
     
      
 /*css aviso legal---------------------------------------------------------------------------------------*/
-.cuerpo_aviso { width: 100%;
-        justify-content: space-between;
+.cuerpo_aviso { 
+        width:70%;
+        justify-content: center;
         align-items: center;
         display: flex;
         flex-flow: column wrap;
-        padding: 2rem;
+        padding: 1.2rem;
+        margin-left:15rem;
+        
+
+        
+        
 }
-.cuerpo_aviso h1{font-size: 3rem;
+.cuerpo_aviso h1{font-size: 2rem;
 
 }
-.cuerpo_aviso p{
-                text-align: center;
-                margin: 2rem;
-                font-size: 1.2rem;      
+p{
+        text-align: justify;
+        margin: 1rem;
+        font-size: 1.2em;   
+        font-family: 'Kdam Thmor Pro', sans-serif;
+         font-family: 'Poppins', sans-serif;   
+
         
 }
 
-
-
-
-
-
-
-
 /*css mapa--------------------------------------------------------------------------------------------------------------*/
-
-
-
-
-
 
 .mapa {  
         font-family: 'Arial', sans-serif;
@@ -297,20 +302,86 @@ button:hover{
         align-items: center;
         justify-content: center;
         height: 100vh; /* Ensure the body takes up the full height of the viewport */
-        margin: 0; /* Remove default margin */
+        margin: 10rem; /* Remove default margin */
       }
   
       .ubicación { 
         color: #333;
         text-align: center;
         align-content: flex-start;
-        
+        font-family: 'Kdam Thmor Pro', sans-serif;
+        font-family: 'Poppins', sans-serif;
+
       }
   
       .mapa2 {
         border: 2px solid #ccc;
         border-radius: 8px;
         margin-top: 10px;}
+        /*css canal----------------------------------------------------------------------------------------------------*/
+        form {
+                /* Centrar el formulario en la página */
+               
+                margin:13rem auto;
+                width: 80%;
+                min-height: 100vh;
+                /* Esquema del formulario */
+                padding: 1em;
+                border: none;
+                
+              }
+             
+             
+            label {
+                     display: block;
+                     margin: 0.5rem;
+                }
+            input,textarea {
+                display: flex;
+                justify-content: center;
+                width: 60%;
+                padding: 1rem ;
+                margin: 1.5rem auto;
+                background-color: rgb(34, 33, 33);
+                border: none;
+                color:darkgrey;
+                opacity: 0.6;
+            }
+            
+            
+            textarea{
+                    height: 10rem;
+                    padding: 0.75rem;
+                    color: darkgrey;
+                  }
+            
+            button {
+             
+                    padding: 1rem 2rem;
+                     margin-left: 50%;
+                     background-color: rgb(34, 33, 33);
+                     color:darkgrey;
+                     border: none;
+                     box-shadow: 0 0 10px rgba(0, 0,0, 80);
+                     opacity: 0.8;
+                 
+                   }
+                 
+            button:hover{
+                     background-color: blueviolet;
+                   }
+                 
+            .formulario { background-color: 1rem solid red;
+                  /*  height: 100vh;
+                    width: 100vh; */
+                    background-image:url(/galeria-rugby/equipacion-hombre.jpg);
+                    background-size: cover;
+                    background-repeat: no-repeat; 
+                    background-position: center center;
+                    background-attachment: fixed;
+                
+                }
+                
 
 
 
@@ -927,7 +998,7 @@ footer { grid-area: footer;
             height: 2rem;
             }
 .copyright {width: 100%;
-            height: 5rem;
+            height: 3rem;
             display: flex;
             justify-content: center;
             align-items: center;
