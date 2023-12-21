@@ -233,8 +233,8 @@ button:hover{
 .cuerpo_aviso h1{font-size: 3rem;
 
 }
-.cuerpo_aviso p{
-        text-align: justify;
+p{
+        text-align: center;
         margin: 2rem;
         font-size: 1.2rem;      
         
@@ -245,6 +245,35 @@ button:hover{
 
 
 
+
+
+/*css mapa--------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+.mapa {  
+        font-family: 'Arial', sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh; /* Ensure the body takes up the full height of the viewport */
+        margin: 0; /* Remove default margin */
+      }
+  
+      .ubicación { 
+        color: #333;
+        text-align: center;
+        align-content: flex-start;
+      }
+  
+      .mapa2 {
+        border: 2px solid #ccc;
+        border-radius: 8px;
+        margin-top: 10px;}
 
 
 
