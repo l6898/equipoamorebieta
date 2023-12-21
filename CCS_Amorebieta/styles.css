@@ -242,7 +242,7 @@ button:hover{
 
 
 
-.mapa {
+.mapa {  
         font-family: 'Arial', sans-serif;
         display: flex;
         flex-direction: column;
@@ -252,9 +252,10 @@ button:hover{
         margin: 0; /* Remove default margin */
       }
   
-      .ubicación {
+      .ubicación { 
         color: #333;
         text-align: center;
+        align-content: flex-start;
       }
   
       .mapa2 {
