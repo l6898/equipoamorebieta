@@ -43,9 +43,10 @@ header {    background-color:var(--principal);
              display: flex;
              justify-content: space-around;
              align-items: center;  
+             list-style: none;
            }
  
-<<<<<<< HEAD
+
 
 
 
@@ -67,10 +68,10 @@ header {    background-color:var(--principal);
 
 /*--------------aquiempieza el ccs de la  tabla clasificacion*/
 
-.celdaClasificacion { display: grid;
+.celdaClasificacion { display: grid;}
         
-=======
- header a {   
+
+header a {   
             text-decoration: none;
             font-size: 2rem;
             padding: 1rem;        
@@ -258,10 +259,10 @@ button:hover{
 .cuerpo_aviso h1{font-size: 3rem;
 
 }
-p{
-        text-align: center;
-        margin: 2rem;
-        font-size: 1.2rem;      
+.cuerpo_aviso p{
+                text-align: center;
+                margin: 2rem;
+                font-size: 1.2rem;      
         
 }
 
@@ -439,6 +440,7 @@ figcaption{text-align: center;
         }
 .portada2 img  {width: 100%;
                 height: auto;
+                padding: 2rem;
                 
         }
 
@@ -453,7 +455,7 @@ figcaption{text-align: center;
                 
 .cuerpo_noticia2{   width: 100%;
                     height: auto;
-                    padding: 1rem;
+                    padding: 2rem;
                     text-align: justify;
         }
 
@@ -489,7 +491,7 @@ figcaption{text-align: center;
         
 .cuerpo_noticia3{           width: 100%;
                             height: auto;
-                            padding: 1rem;
+                            padding: 2rem;
                             text-align: justify;
         }
 
