@@ -18,7 +18,7 @@
         
 
       /*esto es la cuadricula*/
-      grid-auto-rows: 10rem 30rem 40rem 40rem 30rem;
+      grid-auto-rows: 10rem 40rem 30rem 40rem 30rem;
       
             
        }
@@ -67,6 +67,7 @@ header {    background-color:var(--principal);
 /*--------------aquiempieza el ccs de la  tabla clasificacion*/
 
 .celdaClasificacion { display: grid;}
+
         
 
 header a {   
@@ -115,6 +116,11 @@ header a {
                 
                 height: 35rem;
 }
+.hDelGrid{display: flex;
+        justify-content: center;
+        padding: 1rem;
+
+}
 
 .tabla {
          width: 50rem;
@@ -124,9 +130,13 @@ header a {
 
 .resultado {  
               width: 60rem;
+              height: auto;
               display: flex;
               flex-direction: column;
               align-items: center;
+}
+.resultado h2{padding: 1rem;
+
 }
 .joan { display: flex;}
 
@@ -535,8 +545,7 @@ figcaption{text-align: center;
             
 }
 .noticia2 h1{font-size: 2rem;  
-        padding: 1rem;
-                  }
+                padding: 1rem;}
   
 .portada2  { width: 100%;
              height: 50rem;
@@ -552,13 +561,13 @@ figcaption{text-align: center;
 
 .noticia2 h4{font-size: 1.5rem; 
                 text-align: justify;
-                padding: 2rem;
+                padding: 1rem;
+               
         }
                 
-.noticia2 p{font-size: 1.3rem;
-            text-align: justify;
-            padding: 2rem;
-}
+/* .noticia2 p{font-size: 1.3rem;
+            text-align: justify; */
+            
                 
 .cuerpo_noticia2{   width: 100%;
                     height: auto;                    
@@ -584,20 +593,20 @@ figcaption{text-align: center;
             padding: 1rem;
             text-align: justify;
         }
-.noticia3 h1{font-size: 2rem;        
+.noticia3 h1{font-size: 2rem;  
+                padding: 1rem;      
         }
         
 .noticia3 h4{font-size: 1.5rem;
+        padding: 1rem;
         }
         
 .noticia3 p{font-size: 1.3rem;
                 text-align: justify;
-        
         }
         
 .cuerpo_noticia3{           width: 100%;
-                            height: auto;
-                            padding: 2rem;
+                            height: auto;                        
                             text-align: justify;
         }
 
@@ -608,8 +617,7 @@ figcaption{text-align: center;
   .categorias_general{width: 100%;
                         height: auto;
                         display: flex;
-
-  }
+                      }
 
   .contenedor_categorias{width: 80%;
                         height: auto;
