@@ -43,9 +43,10 @@ header {    background-color:var(--principal);
              display: flex;
              justify-content: space-around;
              align-items: center;  
+             list-style: none;
            }
  
-<<<<<<< HEAD
+
 
 
 
@@ -67,9 +68,9 @@ header {    background-color:var(--principal);
 
 /*--------------aquiempieza el ccs de la  tabla clasificacion*/
 
-.celdaClasificacion { display: grid;
+.celdaClasificacion { display: grid;}
         
-=======
+
  header a {   
             text-decoration: none;
             font-size: 2rem;
@@ -304,6 +305,7 @@ p{
         color: #333;
         text-align: center;
         align-content: flex-start;
+        
       }
   
       .mapa2 {
