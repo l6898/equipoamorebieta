@@ -3,7 +3,7 @@
     box-sizing: border-box;
  }
  body { 
-        border: 1rem solid yellow; 
+        
  }
 
  /*estilo contenedor principal*/
@@ -20,7 +20,7 @@
         
 
       /*esto es la cuadricula*/
-      grid-auto-rows: 10rem 30rem 30rem 40rem;
+      grid-auto-rows: 10rem 30rem 40rem 40rem;
       
             
        }
@@ -38,7 +38,7 @@ header {    background-color:var(--principal);
 
 
 
-.menu {  
+.menu {      
              width: 100%;
              display: flex;
              justify-content: space-around;
@@ -62,17 +62,14 @@ header {    background-color:var(--principal);
                         grid-area: contenedor1;        
 }
 
-/* .carruselDefotos {  
 
-}
- */
 
 
 
 
 /*aqui empieza la segunda seccion donde va la tabla del equipo*/
 
-.clasificasionDelequipo { border: 1rem solid green;
+.clasificasionDelequipo { 
                           grid-area: contenedor2;
 }
 
@@ -81,6 +78,21 @@ header {    background-color:var(--principal);
                         grid-template-columns: repeat(10, auto) ;
                         grid-template-rows: repeat(24, 5rem);
 }  
+.fondoDiv {  background-color: rgb(8, 46, 46, 0.2);
+        
+}
+
+.frameEquipo {
+                
+                height: 35rem;
+}
+
+.tabla {
+         width: 50rem;
+         height: 20rem;
+
+}
+
 
 
 
