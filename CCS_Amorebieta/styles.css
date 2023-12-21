@@ -55,50 +55,7 @@ header ul {
              align-items: center;  
 >>>>>>> b371fc4101494e449683545e0a0753e337386069
            }
- header ul li { list-style: none;}           
  
- header a {   
-            text-decoration: none;
-            font-size: 2rem;
-            padding: 1rem;        
-}
-
-<<<<<<< HEAD
- 
-.encabezado_del_body { background-color:var(--secundario);
-                       grid-area: contenedor1;        
-=======
-
- /*------------------------------aqui empieza lo que seria el main-----------*/
-.encabezado_del_body {   
-                        background-color: white;
-                        grid-area: contenedor1;        
-}
-
-.carruselDefotos {  border: 1rem solid black;
-
->>>>>>> b371fc4101494e449683545e0a0753e337386069
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
