@@ -27,23 +27,56 @@
 /*-------------aqui es el header-------------------*/
 
 
-header {    background-color:var(--principal);
+
+header {    background-color: rgb(217, 217, 217);
             grid-area: header;
             display: flex;
             justify-content: space-between;
         }
 
-
-
-
-.menu {      
+/*.menu {      
              width: 100%;
              display: flex;
              justify-content: space-around;
              align-items: center;  
              list-style: none;
            }
- 
+ */    
+
+ .menu { 
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        list-style: none;
+      }
+
+
+        
+
+.menu_vertical{ 
+list-style: none;
+position: absolute;
+display: none;
+list-style: none;
+width: 10rem;
+background-color: rgb(255, 253, 253);
+
+}
+
+.menu li:hover .menu_vertical{display: block;
+}
+.menu_vertical li:hover{
+background-color: rgb(160, 149, 149);
+}
+.menu_vertical li a{
+                   display: block;
+                   color: rgb(0, 0, 0);
+                   padding: 1rem;
+                   font-family: sans-serif;
+                   font-style: oblique;
+                   font-size: 1rem;
+}
 
 
 
@@ -100,17 +133,17 @@ header a {
         height: 10rem;
     }
 
-    .carrusel{
+.carrusel{
         background-color: none;
     }
     
-    .carrusel span{
+.carrusel span{
         width: 100%;
         display: flex;
         justify-content: space-around;
     }
     
-    .carrusel img{
+.carrusel img{
         border-radius: 0.2rem;
     }
     
@@ -124,6 +157,16 @@ header a {
         }
     
     }
+
+.titulares {   display: flex;
+        justify-content: center;
+              background-color: rgb(55, 55, 158);
+} 
+
+.titulares h1 {
+                    color:#ccc;
+                    font-size: 10rem;
+}
     
 
 
@@ -453,6 +496,48 @@ p{
                     background-attachment: fixed;
                 
                 }
+
+/*-----------------historia -----------------*/
+.history-tittle{
+        color: #da0606;
+        text-align: left;
+        align-content: flex-start;
+        font-family: 'Kdam Thmor Pro', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-size: 60px;
+
+      }
+ .history-image{ 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 50%; /* Ensure the body takes up the full height of the viewport /
+        margin:10rem 5rem; / Remove default margin */}
+
+
+     .history-text{ /*text-align: justify;
+      margin: 2rem;
+      font-size: 1.2em;
+      font-family: 'Kdam Thmor Pro', sans-serif;
+       font-family: 'Poppins', sans-serif; */
+       width: 70%;
+       justify-content: center;
+       align-items: center;
+       display: flex;
+       flex-flow: column wrap;
+       padding: 1.2rem;
+       margin-left: 15rem;
+      }
+
+      .history-todo{
+        text-align: justify;
+        margin: 1.5rem;
+        font-size: 0.9em;
+        font-family: 'Kdam Thmor Pro', sans-serif;
+         font-family: 'Poppins', sans-serif;
+
+      }
                 
 
 
