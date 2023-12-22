@@ -257,7 +257,8 @@ header a {
              
              
             }
-#footer { background-color:wheat;
+#footer { background-color:rgb(217, 217, 217);
+    color: rgb(61, 60, 140)
 
 }
 
