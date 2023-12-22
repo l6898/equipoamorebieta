@@ -18,7 +18,7 @@
         
 
       /*esto es la cuadricula*/
-      grid-auto-rows: 10rem 30rem 40rem 40rem 30rem;
+      grid-auto-rows: 15rem 15rem 40rem 40rem 30rem;
       
             
        }
@@ -64,7 +64,9 @@ header {    background-color:var(--principal);
 
 
 
-/*--------------aquiempieza el ccs de la  tabla clasificacion*/
+
+
+/*--------------aquiempieza el ccs del index de la  tabla clasificacion*/
 
 .celdaClasificacion { display: grid;}
         
@@ -80,12 +82,48 @@ header a {
 
 
 
-.encabezado_del_body {   
-                        background-color: white;
+.encabezado_del_body { 
+                        background-color: rgb(255, 255, 255);
                         grid-area: contenedor1;        
 }
 
 
+
+
+
+.carrusel div { 
+        display: flex;
+        width: 115rem;
+        animation: carrusel 9s linear infinite;
+        white-space: nowrap;
+        height: 10rem;
+    }
+
+    .carrusel{
+        background-color: none;
+    }
+    
+    .carrusel span{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .carrusel img{
+        border-radius: 0.2rem;
+    }
+    
+    @keyframes carrusel {
+        0% {
+            transform: translateX(10%);
+        }
+    
+        100% {
+            transform: translateX(-50%);
+        }
+    
+    }
+    
 
 
 
@@ -768,10 +806,10 @@ figcaption{text-align: center;
     
     .contenedor-iconos{position: relative;}
     
-    img{
+  /*  img{
         max-width: 100%;
     }
-    [alt="cruz"]{width: 25px;height: 25px;}
+    [alt="cruz"]{width: 25px;height: 25px;}*/
     
     .contadorproductos{
         position: absolute;
